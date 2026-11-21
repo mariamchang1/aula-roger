@@ -1,0 +1,46 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Aula de Roger · Repaso avanzado de Matemáticas</title><style>:root{font-family:system-ui,-apple-system,Segoe UI,Arial,sans-serif;color:#18253a;background:#f3f6fb}*{box-sizing:border-box}body{margin:0}.wrap{max-width:900px;margin:auto;padding:20px}header{background:#142b55;color:white;padding:24px;border-radius:18px}h1{margin:0 0 8px;font-size:clamp(24px,4vw,36px)}h2{margin:0 0 8px}.sub{opacity:.9}nav{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0}button{cursor:pointer;border:0;border-radius:10px;padding:11px 15px;font-weight:700;background:#e1e9f7;color:#17365c}button.active,button.primary{background:#2563eb;color:#fff}button:focus-visible,input:focus-visible{outline:3px solid #f59e0b;outline-offset:2px}.panel{background:white;border:1px solid #dce5f0;border-radius:16px;padding:22px;margin:14px 0;box-shadow:0 2px 9px #1b31500b}.muted{color:#52647b}.formula{font-size:clamp(19px,3.3vw,27px);font-weight:700;overflow-wrap:anywhere;margin:16px 0;line-height:1.5}input{font-size:19px;width:160px;max-width:100%;border:2px solid #aebed3;border-radius:10px;padding:10px}label{display:block;margin-bottom:8px;font-weight:600}.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:15px}.feedback{padding:14px;border-radius:12px;margin-top:14px;background:#f0f5fc;white-space:pre-line;line-height:1.65}.ok{background:#e5f6ed;color:#135d37}.bad{background:#fff1ec;color:#842c1a}.progress{height:12px;background:#dce5f0;border-radius:30px;overflow:hidden;margin:12px 0}.fill{height:100%;background:#2563eb;transition:width .2s}.small{font-size:14px}footer{padding:25px 0;color:#536780}.hide{display:none} .pill{display:inline-block;padding:5px 9px;background:#e7edfb;border-radius:8px;font-size:13px;font-weight:700} .note{border-left:4px solid #2563eb;padding:8px 12px;background:#edf4ff;margin-top:14px} @media(max-width:500px){.wrap{padding:12px}.panel{padding:16px}}</style></head><body><div class="wrap"><header><h1>🧠 Aula de Roger · Matemáticas</h1><div class="sub">Repaso avanzado de 1.º ESO · Números enteros, signos, potencias y operaciones combinadas</div></header><nav aria-label="Niveles"><button id="b0" onclick="selectLevel(0)">Nivel 1 · Signos</button><button id="b1" onclick="selectLevel(1)">Nivel 2 · Potencias</button><button id="b2" onclick="selectLevel(2)">Nivel 3 · Examen</button><button id="ball" onclick="selectLevel(3)">Todos (30)</button></nav><div class="panel"><div id="meta" class="muted"></div><div class="progress"><div class="fill" id="fill"></div></div><div id="score" class="small"></div></div><main class="panel" id="main" aria-live="polite"></main><div class="panel"><h2>📌 Recuerda</h2><p><strong>−(−a) = +a</strong>. Las multiplicaciones y divisiones tienen la misma prioridad y se resuelven de izquierda a derecha. Primero van los paréntesis, después las potencias, luego multiplicaciones y divisiones y, al final, sumas y restas.</p><p>En <strong>−3⁴</strong> el signo menos queda fuera de la potencia: −81. En <strong>(−3)⁴</strong> la base es negativa: +81.</p></div><footer>Práctica autocorregible sin conexión. Las respuestas se comprueban en el dispositivo y no se envían a ningún servidor.</footer></div><script>
+const Q=[
+// Nivel 1
+['−7 − (−12) + (−5)',0,'−7 + 12 − 5 = 5 − 5 = 0'],
+['−(−9) − (+14) + (−3)',-8,'9 − 14 − 3 = −5 − 3 = −8'],
+['18 − [−4 − (−11)]',11,'Dentro del corchete: −4 + 11 = 7. Luego 18 − 7 = 11'],
+['−[−8 + (+3)] − 6',-1,'Dentro: −8 + 3 = −5. Fuera: −(−5) − 6 = 5 − 6 = −1'],
+['−12 − [7 − (−5) − 9]',-15,'Corchete: 7 + 5 − 9 = 3. Después −12 − 3 = −15'],
+['5 − (−8) − [−6 + (−2)]',21,'5 + 8 − (−8) = 13 + 8 = 21'],
+['−[4 − (−7)] + [−3 − (−10)]',-4,'Primer corchete: 4 + 7 = 11. Segundo: −3 + 10 = 7. Resultado: −11 + 7 = −4'],
+['−20 + [−5 − (−13)] − (−4)',-8,'Corchete: −5 + 13 = 8. Luego −20 + 8 + 4 = −8'],
+['−[−15 − (−6) + 4]',5,'Dentro: −15 + 6 + 4 = −5. Fuera: −(−5) = 5'],
+['16 − [−(−3) + 8] + (−2)',3,'Corchete: 3 + 8 = 11. Luego 16 − 11 − 2 = 3'],
+// Nivel 2
+['−(−3)⁴ + (−2)³',-89,'(−3)⁴ = 81 y (−2)³ = −8. Luego −81 − 8 = −89'],
+['(−5)² − 3³',-2,'(−5)² = 25 y 3³ = 27. Luego 25 − 27 = −2'],
+['−(−2)⁵ + (−4)²',48,'(−2)⁵ = −32, por eso −(−32) = 32. (−4)² = 16. Total 48'],
+['48 : (−3) · (−2) − 5²',7,'48 : (−3) = −16; −16 · (−2) = 32; 5² = 25; 32 − 25 = 7'],
+['(−3)³ : 9 + 2⁴',13,'(−3)³ = −27; −27 : 9 = −3; 2⁴ = 16; −3 + 16 = 13'],
+['−4² + (−4)² − (−2)³',8,'−4² = −16; (−4)² = 16; (−2)³ = −8. −16 + 16 − (−8) = 8'],
+['72 : (−6) : (−2) + (−3)²',15,'72 : (−6) = −12; −12 : (−2) = 6; (−3)² = 9; 6 + 9 = 15'],
+['(−2)⁴ · (−3) + 6²',-12,'(−2)⁴ = 16; 16 · (−3) = −48; 6² = 36; −48 + 36 = −12'],
+['−(5)³ : (−5) − (−3)²',16,'−125 : (−5) = 25; (−3)² = 9; 25 − 9 = 16'],
+['(−6)² : (−3) · 2 − (−2)⁴',-40,'36 : (−3) = −12; −12 · 2 = −24; (−2)⁴ = 16; −24 − 16 = −40'],
+// Nivel 3
+['18 : [−7 + 2 · (−1)] + (−3)²',7,'Corchete: −7 − 2 = −9. 18 : (−9) = −2; (−3)² = 9; −2 + 9 = 7'],
+['(−3) · [5 − (−2)²] − 4 · (−2)',5,'(−2)² = 4; corchete = 1. (−3) · 1 − (−8) = −3 + 8 = 5'],
+['60 : (−3) · [8 − 24 : 4 · 2]',80,'Dentro: 24 : 4 · 2 = 6 · 2 = 12; corchete 8 − 12 = −4; 60 : (−3) = −20; −20 · (−4) = 80'],
+['−[−6 − (−2)³] + 3 · (−4)',-14,'(−2)³ = −8; corchete: −6 − (−8) = 2; fuera: −2 − 12 = −14'],
+['(5 − 9)² : (−2) − [−3 · (−4)]',-20,'(5 − 9)² = 16; 16 : (−2) = −8; corchete = 12; −8 − 12 = −20'],
+['−2 · [7 − 18 : (−3)] + (−5)²',-1,'18 : (−3) = −6; corchete 7 − (−6) = 13; −2 · 13 = −26; +25 = −1'],
+['[−4 + (−3)²] · (−2) − 12 : (−3)',-6,'(−3)² = 9; corchete = 5; 5 · (−2) = −10; 12 : (−3) = −4; −10 − (−4) = −6'],
+['(−2)³ · [−6 + 15 : (−3)] − (−4)²',72,'15 : (−3) = −5; corchete = −11; (−2)³ = −8; (−8) · (−11) = 88; 88 − 16 = 72'],
+['−[−12 : (−3) + (−2)³] · (−5)',-20,'−12 : (−3) = 4; (−2)³ = −8; corchete = −4; signo exterior lo cambia a +4; 4 · (−5) = −20'],
+['[(−3)² − 5²] : (−4) · 3 − 2³',4,'9 − 25 = −16; −16 : (−4) = 4; 4 · 3 = 12; 12 − 8 = 4']
+];
+let mode=3,indices=[],pos=0,answers={},attempts={},showHelp=false;
+function selectLevel(n){mode=n;indices=Q.map((_,i)=>i).filter(i=>n===3||Math.floor(i/10)===n);pos=0;answers={};attempts={};showHelp=false;document.querySelectorAll('nav button').forEach((b,i)=>b.classList.toggle('active',i===n));render()}
+function norm(s){return s.trim().replace(/\s/g,'').replace('−','-').replace(/^\+/,'').replace(',','.')}function render(){let total=indices.length,done=Object.keys(answers).length,correct=Object.values(answers).filter(a=>a.correct).length;document.getElementById('meta').textContent=`Ejercicio ${Math.min(pos+1,total)} de ${total} · ${mode===3?'Repaso completo':'Nivel '+(mode+1)}`;document.getElementById('fill').style.width=(done/total*100)+'%';document.getElementById('score').textContent=`Resueltos: ${done}/${total} · Aciertos al primer intento: ${correct} · Nota provisional: ${done?((correct/total)*10).toFixed(1):'—'}/10`;
+let el=document.getElementById('main');if(pos>=total){el.innerHTML=`<h2>🏁 Práctica terminada</h2><p class="formula">Nota: ${(correct/total*10).toFixed(1)} / 10</p><p>${correct} de ${total} correctos al primer intento.</p><div class="actions"><button class="primary" onclick="repeatErrors()">Repetir los fallos</button><button onclick="selectLevel(mode)">Empezar de nuevo</button></div>`;return}
+let i=indices[pos],q=Q[i],a=answers[i];el.innerHTML=`<span class="pill">${i<10?'Signos y paréntesis':i<20?'Potencias y operaciones':'Reto de examen'}</span><h2 style="margin-top:14px">Calcula el resultado</h2><div class="formula">${q[0]}</div><label for="resp">Escribe un número entero (por ejemplo: −12)</label><input id="resp" type="text" inputmode="numeric" autocomplete="off" ${a?'disabled':''} value="${a?a.value:''}"><div class="actions"><button class="primary" id="check" onclick="check()" ${a?'disabled':''}>Comprobar respuesta</button><button onclick="hint()">Ver explicación</button><button onclick="next()">${pos===total-1?'Terminar':'Siguiente →'}</button></div><div id="feedback" class="feedback ${a?(a.correct?'ok':'bad'):'hide'}">${a?(a.correct?'✅ ¡Correcto!':'❌ La respuesta correcta es '+q[1]+'.')+'\n'+q[2]:''}</div><div id="hint" class="note ${showHelp?'':'hide'}">${q[2]}</div>`;document.getElementById('resp').addEventListener('keydown',e=>{if(e.key==='Enter')a?next():check()})}
+function check(){let i=indices[pos],v=document.getElementById('resp').value;if(!/^[-+−]?\d+$/.test(v.trim())){alert('Escribe un número entero, por ejemplo −12.');return}if(answers[i])return;answers[i]={value:v,correct:Number(norm(v))===Q[i][1]};showHelp=false;render()}
+function hint(){showHelp=!showHelp;document.getElementById('hint').classList.toggle('hide',!showHelp)}function next(){if(pos<indices.length){pos++;showHelp=false;render()}}
+function repeatErrors(){let missed=indices.filter(i=>!answers[i]||!answers[i].correct);if(!missed.length){selectLevel(mode);return}indices=missed;pos=0;answers={};showHelp=false;render()}
+selectLevel(3);
+</script></body></html>

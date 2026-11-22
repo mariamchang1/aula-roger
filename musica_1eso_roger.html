@@ -1,28 +1,1421 @@
-<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Música paso a paso · Aula de Roger</title><style>*{box-sizing:border-box}body{margin:0;font:17px/1.65 system-ui,sans-serif;color:#1f2d47;background:#f4f6fc}header{background:#293c80;color:white;padding:30px 20px}header>div,main{max-width:950px;margin:auto}header a{color:white}h1{margin:10px 0;font-size:2.1rem}h2,h3{line-height:1.3}main{padding:20px 16px 60px}button,.button{cursor:pointer;border:0;border-radius:10px;padding:12px 16px;font:inherit;background:#334a9e;color:white;text-decoration:none;display:inline-block}button.secondary{background:#e9edf9;color:#293c80}button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid #f3b540;outline-offset:3px}.panel{background:white;padding:24px;border:1px solid #dce3f0;border-radius:16px;margin:18px 0}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}.grid button{text-align:left;background:white;color:#24375e;border:1px solid #cbd5ea;min-height:85px}.tip{background:#edf2ff;border-left:4px solid #4b64b7;padding:16px;border-radius:6px}.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(100px,1fr));gap:8px}.figs>div{text-align:center;border:1px solid #dce3f0;border-radius:9px;padding:8px}.figs b,.figs span{display:block}.figs span{font-size:.8rem}.muted{color:#647089}.actions{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0}.answers{display:grid;gap:9px}.answers label{padding:12px;border:1px solid #cbd5ea;border-radius:10px;cursor:pointer}.answers label:has(input:checked){background:#edf2ff;border-color:#334a9e}.answers label.right{background:#e7f7ed;border-color:#23754c}.answers label.wrong{background:#fff0ee;border-color:#b84738}input{margin-right:10px}.feedback{border-radius:10px;padding:16px;margin-top:15px;background:#edf2ff}.bad{background:#fff0ee}.good{background:#e7f7ed}.feedback:empty{display:none}.pill{display:inline-block;background:#edf2ff;color:#293c80;padding:4px 9px;border-radius:7px;font-size:.85rem}progress{width:100%;height:13px}details{margin:18px 0}summary{cursor:pointer;font-weight:700}iframe{width:100%;height:750px;border:1px solid #dce3f0;border-radius:12px}.hidden{display:none!important}.answer-sheet article{border-top:1px solid #dde4ef;padding:14px 0}.score{font-size:1.5rem;font-weight:750}@media(max-width:550px){.panel{padding:18px}h1{font-size:1.8rem}}@media print{button,header a,.actions,iframe,progress{display:none}body{background:white}.panel{break-inside:avoid;border:1px solid #ddd}.hidden{display:block!important}#quiz,#result{display:none!important}}.compas-table{width:100%;border-collapse:collapse}.compas-table th,.compas-table td{text-align:left;padding:8px;border-bottom:1px solid #dce3f0}</style></head><body><header><div><a href="index.html">← Volver al Aula de Roger</a><h1>Música, paso a paso</h1><p>Primero entiende una idea. Después practica solo esa parte.</p></div></header><main><section id="home"><div class="panel"><h2>Vamos por partes</h2><p>Empieza por el bloque 1. Cada bloque tiene una explicación sencilla y una prueba autocorregible. Aquí medimos las duraciones tomando la <b>negra como 1</b>.</p><p>En práctica, corrige cada pregunta y lee el motivo. En los modelos, responde primero y corrige al terminar. Siempre podrás consultar las soluciones.</p><div id="topics" class="grid"></div></div><div class="panel"><h2>Tres modelos para repasar</h2><p>14 preguntas por modelo, con 4 de compases. Al terminar verás la respuesta correcta y la explicación de cada fallo.</p><div class="actions" id="models"></div></div><details class="panel"><summary>Guía y examen anteriores (conservados)</summary><p>Los materiales anteriores siguen disponibles aquí. Usa la nueva explicación de 6/8 y los dibujos de las figuras de arriba como referencia.</p><iframe title="Guía y examen de Música anteriores" srcdoc="&lt;!doctype html&gt;&lt;html lang=&quot;es&quot;&gt;&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,initial-scale=1&quot;&gt;&lt;title&gt;Aula de Roger · Música 1.º ESO&lt;/title&gt;&lt;style&gt;:root{font-family:system-ui,-apple-system,sans-serif;color:#17233d;background:#f3f6fc}*{box-sizing:border-box}body{margin:0}header{background:linear-gradient(110deg,#283a83,#7256b8);color:white;padding:30px 18px}main{max-width:980px;margin:auto;padding:18px}h1{margin:0;font-size:2rem}h2{color:#283a83}nav{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0}button{border:0;border-radius:10px;background:#354a9c;color:white;padding:12px 17px;font-size:1rem;cursor:pointer}button.secondary{background:#e5eafd;color:#263776}.panel{background:white;border-radius:16px;padding:20px;margin:16px 0;box-shadow:0 3px 16px #1b2a5912}.hide{display:none}.note{font-size:2rem;font-family:&#x27;DejaVu Sans&#x27;,&#x27;Arial Unicode MS&#x27;,serif}.muted{color:#536078}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:10px}.tile{border:1px solid #dce3f3;border-radius:12px;padding:12px;text-align:center}.tile b{display:block}.question{border-top:1px solid #e4e8f2;padding:17px 0}.question p{font-weight:650}.answers{display:grid;gap:7px}.answers label{display:block;padding:10px;border:1px solid #d9dff0;border-radius:9px;cursor:pointer}.answers label:has(input:checked){background:#e9edff;border-color:#4d5fb0}input[type=radio]{margin-right:9px}.feedback{margin-top:8px;font-weight:650}.good{color:#176b43}.bad{color:#b33c39}.score{font-size:1.25rem;font-weight:750}.small{font-size:.9rem}.staff{display:block;margin:10px auto;max-width:100%}table{border-collapse:collapse;width:100%}td,th{border-bottom:1px solid #e4e8f2;padding:9px;text-align:left}details{margin:10px 0;padding:12px;background:#f5f7ff;border-radius:9px}footer{text-align:center;padding:20px;color:#67718a}@media print{nav,button{display:none}body{background:white}.panel{box-shadow:none;border:1px solid #ddd}}&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;header&gt;&lt;div style=&quot;max-width:980px;margin:auto&quot;&gt;&lt;div&gt;🎵 AULA DE ROGER · 1.º ESO&lt;/div&gt;&lt;h1&gt;Música · Tema 2&lt;/h1&gt;&lt;p&gt;Notas, figuras, silencios, compases y signos de prolongación&lt;/p&gt;&lt;/div&gt;&lt;/header&gt;&lt;main&gt;&lt;nav&gt;&lt;button onclick=&quot;show(&#x27;guia&#x27;)&quot;&gt;📘 Guía de estudio&lt;/button&gt;&lt;button onclick=&quot;show(&#x27;practica&#x27;)&quot;&gt;🧠 Practicar&lt;/button&gt;&lt;button onclick=&quot;show(&#x27;examen&#x27;)&quot;&gt;📝 Examen&lt;/button&gt;&lt;/nav&gt;&lt;section id=&quot;guia&quot;&gt;&lt;article class=&quot;panel&quot;&gt;&lt;h2&gt;1. Notas musicales&lt;/h2&gt;&lt;p&gt;Las siete notas son &lt;b&gt;DO, RE, MI, FA, SOL, LA, SI&lt;/b&gt;. Nos indican la altura del sonido. Las &lt;b&gt;figuras&lt;/b&gt; indican cuánto dura.&lt;/p&gt;&lt;p class=&quot;muted&quot;&gt;Truco: nota = qué sonido; figura = cuánto tiempo.&lt;/p&gt;&lt;/article&gt;&lt;article class=&quot;panel&quot;&gt;&lt;h2&gt;2. Figuras y su duración&lt;/h2&gt;&lt;p&gt;Tomamos la &lt;b&gt;negra como 1 tiempo&lt;/b&gt;, tal como se trabaja habitualmente en estos ejercicios.&lt;/p&gt;&lt;div class=&quot;grid&quot; id=&quot;figuras&quot;&gt;&lt;/div&gt;&lt;p&gt;Memoriza la pirámide: &lt;b&gt;1 redonda = 2 blancas = 4 negras = 8 corcheas = 16 semicorcheas = 32 fusas = 64 semifusas.&lt;/b&gt;&lt;/p&gt;&lt;details&gt;&lt;summary&gt;¿Cuántas fusas hay en una corchea?&lt;/summary&gt;4 fusas. Una corchea vale 1/2 y una fusa 1/8: (1/2) ÷ (1/8) = 4.&lt;/details&gt;&lt;details&gt;&lt;summary&gt;¿Cuántas semifusas hay en una fusa?&lt;/summary&gt;2 semifusas.&lt;/details&gt;&lt;/article&gt;&lt;article class=&quot;panel&quot;&gt;&lt;h2&gt;3. Silencios&lt;/h2&gt;&lt;p&gt;Los silencios son pausas y duran &lt;b&gt;exactamente lo mismo&lt;/b&gt; que su figura correspondiente.&lt;/p&gt;&lt;div class=&quot;grid&quot; id=&quot;silencios&quot;&gt;&lt;/div&gt;&lt;p class=&quot;small muted&quot;&gt;Los símbolos son representaciones musicales. La posición de los silencios de redonda y blanca en el pentagrama es importante: redonda cuelga de la cuarta línea y blanca descansa sobre la tercera.&lt;/p&gt;&lt;/article&gt;&lt;article class=&quot;panel&quot;&gt;&lt;h2&gt;4. Compases&lt;/h2&gt;&lt;p&gt;El &lt;b&gt;numerador&lt;/b&gt; (número de arriba) indica cuántas unidades caben en el compás. El &lt;b&gt;denominador&lt;/b&gt; (número de abajo) indica qué figura representa una unidad: 4 = negra, 2 = blanca, 8 = corchea.&lt;/p&gt;&lt;table&gt;&lt;tr&gt;&lt;th&gt;Compás&lt;/th&gt;&lt;th&gt;Duración total&lt;/th&gt;&lt;th&gt;Ejemplo&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2/4&lt;/td&gt;&lt;td&gt;2 negras&lt;/td&gt;&lt;td&gt;♩ + ♩&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;3/4&lt;/td&gt;&lt;td&gt;3 negras&lt;/td&gt;&lt;td&gt;♩ + ♩ + ♩&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4/4&lt;/td&gt;&lt;td&gt;4 negras&lt;/td&gt;&lt;td&gt;𝅗𝅥 + ♩ + ♩&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;6/8&lt;/td&gt;&lt;td&gt;6 corcheas&lt;/td&gt;&lt;td&gt;♪ ♪ ♪ ♪ ♪ ♪&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;Ojo:&lt;/b&gt; 6/8 no significa seis negras, sino seis corcheas.&lt;/p&gt;&lt;/article&gt;&lt;article class=&quot;panel&quot;&gt;&lt;h2&gt;5. Signos de prolongación&lt;/h2&gt;&lt;div class=&quot;grid&quot;&gt;&lt;div class=&quot;tile&quot;&gt;&lt;b&gt;Puntillo ·&lt;/b&gt;&lt;p&gt;Añade la mitad del valor de la figura.&lt;/p&gt;&lt;p&gt;Negra con puntillo = 1 + 0,5 = &lt;b&gt;1,5 tiempos&lt;/b&gt;.&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;tile&quot;&gt;&lt;b&gt;Ligadura de prolongación&lt;/b&gt;&lt;p&gt;Curva que une notas de la &lt;b&gt;misma altura&lt;/b&gt; y suma sus duraciones.&lt;/p&gt;&lt;p&gt;Blanca + negra ligadas = &lt;b&gt;3 tiempos&lt;/b&gt;.&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;tile&quot;&gt;&lt;b&gt;Calderón 𝄐&lt;/b&gt;&lt;p&gt;Prolonga el sonido o silencio más allá de su duración escrita, según la interpretación.&lt;/p&gt;&lt;p&gt;&lt;b&gt;No tiene una duración fija.&lt;/b&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/article&gt;&lt;article class=&quot;panel&quot;&gt;&lt;h2&gt;6. Cómo resolver los ejercicios del cuaderno&lt;/h2&gt;&lt;p&gt;&lt;b&gt;Ejemplo A.&lt;/b&gt; ¿Cuántas semicorcheas tiene una blanca? Blanca = 2 tiempos; semicorchea = 1/4. Entonces 2 ÷ 1/4 = &lt;b&gt;8 semicorcheas&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Ejemplo B.&lt;/b&gt; Completa un compás de 3/4 con una blanca: faltan 3 − 2 = &lt;b&gt;1 tiempo&lt;/b&gt;, así que añade una negra o su silencio.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Ejemplo C.&lt;/b&gt; ¿Cuánto dura una blanca con puntillo? 2 + 1 = &lt;b&gt;3 tiempos&lt;/b&gt;.&lt;/p&gt;&lt;/article&gt;&lt;/section&gt;&lt;section id=&quot;practica&quot; class=&quot;hide&quot;&gt;&lt;article class=&quot;panel&quot;&gt;&lt;h2&gt;Practica por temas&lt;/h2&gt;&lt;p&gt;Responde y pulsa &lt;b&gt;Corregir práctica&lt;/b&gt;. Puedes repetir cuantas veces quieras.&lt;/p&gt;&lt;div id=&quot;practicaQs&quot;&gt;&lt;/div&gt;&lt;button onclick=&quot;grade(&#x27;practica&#x27;)&quot;&gt;Corregir práctica&lt;/button&gt; &lt;button class=&quot;secondary&quot; onclick=&quot;reset(&#x27;practica&#x27;)&quot;&gt;Volver a empezar&lt;/button&gt;&lt;div id=&quot;practicaScore&quot; class=&quot;score&quot; aria-live=&quot;polite&quot;&gt;&lt;/div&gt;&lt;/article&gt;&lt;/section&gt;&lt;section id=&quot;examen&quot; class=&quot;hide&quot;&gt;&lt;article class=&quot;panel&quot;&gt;&lt;h2&gt;Examen de música · Modelo 1&lt;/h2&gt;&lt;p&gt;25 preguntas basadas en el cuaderno. Cada respuesta correcta vale 0,4 puntos. Nota final sobre 10.&lt;/p&gt;&lt;div id=&quot;examenQs&quot;&gt;&lt;/div&gt;&lt;button onclick=&quot;grade(&#x27;examen&#x27;)&quot;&gt;Corregir examen y ver nota&lt;/button&gt; &lt;button class=&quot;secondary&quot; onclick=&quot;reset(&#x27;examen&#x27;)&quot;&gt;Repetir examen&lt;/button&gt;&lt;div id=&quot;examenScore&quot; class=&quot;score&quot; aria-live=&quot;polite&quot;&gt;&lt;/div&gt;&lt;/article&gt;&lt;/section&gt;&lt;/main&gt;&lt;footer&gt;Preparado para Roger · Funciona sin internet una vez guardado el archivo HTML&lt;/footer&gt;&lt;script&gt;
-const figures=[[&#x27;𝅝&#x27;,&#x27;Redonda&#x27;,&#x27;4 tiempos&#x27;],[&#x27;𝅗𝅥&#x27;,&#x27;Blanca&#x27;,&#x27;2 tiempos&#x27;],[&#x27;♩&#x27;,&#x27;Negra&#x27;,&#x27;1 tiempo&#x27;],[&#x27;♪&#x27;,&#x27;Corchea&#x27;,&#x27;1/2 tiempo&#x27;],[&#x27;♬&#x27;,&#x27;Semicorchea&#x27;,&#x27;1/4 tiempo&#x27;],[&#x27;𝅘𝅥𝅯&#x27;,&#x27;Fusa&#x27;,&#x27;1/8 tiempo&#x27;],[&#x27;𝅘𝅥𝅰&#x27;,&#x27;Semifusa&#x27;,&#x27;1/16 tiempo&#x27;]];document.getElementById(&#x27;figuras&#x27;).innerHTML=figures.map(x=&gt;`&lt;div class=&quot;tile&quot;&gt;&lt;span class=&quot;note&quot;&gt;${x[0]}&lt;/span&gt;&lt;b&gt;${x[1]}&lt;/b&gt;${x[2]}&lt;/div&gt;`).join(&#x27;&#x27;);const sil=[[&#x27;𝄻&#x27;,&#x27;Redonda&#x27;,&#x27;4&#x27;],[&#x27;𝄼&#x27;,&#x27;Blanca&#x27;,&#x27;2&#x27;],[&#x27;𝄽&#x27;,&#x27;Negra&#x27;,&#x27;1&#x27;],[&#x27;𝄾&#x27;,&#x27;Corchea&#x27;,&#x27;1/2&#x27;],[&#x27;𝄿&#x27;,&#x27;Semicorchea&#x27;,&#x27;1/4&#x27;],[&#x27;𝅀&#x27;,&#x27;Fusa&#x27;,&#x27;1/8&#x27;],[&#x27;𝅁&#x27;,&#x27;Semifusa&#x27;,&#x27;1/16&#x27;]];document.getElementById(&#x27;silencios&#x27;).innerHTML=sil.map(x=&gt;`&lt;div class=&quot;tile&quot;&gt;&lt;span class=&quot;note&quot;&gt;${x[0]}&lt;/span&gt;&lt;b&gt;Silencio de ${x[1].toLowerCase()}&lt;/b&gt;${x[2]} tiempo(s)&lt;/div&gt;`).join(&#x27;&#x27;);
-const P=[
-[&#x27;¿Cuánto dura una redonda?&#x27;,[&#x27;1&#x27;,&#x27;2&#x27;,&#x27;4&#x27;,&#x27;8&#x27;],2,&#x27;La redonda equivale a cuatro negras.&#x27;],[&#x27;¿Cuántas negras hay en una blanca?&#x27;,[&#x27;1&#x27;,&#x27;2&#x27;,&#x27;4&#x27;,&#x27;8&#x27;],1,&#x27;La blanca vale dos tiempos.&#x27;],[&#x27;¿Cuántas corcheas hay en una negra?&#x27;,[&#x27;2&#x27;,&#x27;4&#x27;,&#x27;6&#x27;,&#x27;8&#x27;],0,&#x27;Dos corcheas forman una negra.&#x27;],[&#x27;¿Cuántas semicorcheas hay en una corchea?&#x27;,[&#x27;2&#x27;,&#x27;4&#x27;,&#x27;8&#x27;,&#x27;16&#x27;],0,&#x27;Una corchea equivale a dos semicorcheas.&#x27;],[&#x27;¿Cuántas fusas hay en una corchea?&#x27;,[&#x27;2&#x27;,&#x27;4&#x27;,&#x27;8&#x27;,&#x27;16&#x27;],1,&#x27;Una corchea vale cuatro fusas.&#x27;],[&#x27;¿Cuántas semifusas hay en una blanca?&#x27;,[&#x27;8&#x27;,&#x27;16&#x27;,&#x27;32&#x27;,&#x27;64&#x27;],2,&#x27;Una blanca equivale a 32 semifusas.&#x27;],[&#x27;¿Qué dura más?&#x27;,[&#x27;Corchea&#x27;,&#x27;Blanca&#x27;,&#x27;Negra&#x27;,&#x27;Semicorchea&#x27;],1,&#x27;La blanca vale 2 tiempos.&#x27;],[&#x27;¿Qué figura dura menos?&#x27;,[&#x27;Fusa&#x27;,&#x27;Semifusa&#x27;,&#x27;Corchea&#x27;,&#x27;Negra&#x27;],1,&#x27;La semifusa vale 1/16 de negra.&#x27;],[&#x27;¿Cuánto dura una negra con puntillo?&#x27;,[&#x27;1&#x27;,&#x27;1,5&#x27;,&#x27;2&#x27;,&#x27;3&#x27;],1,&#x27;El puntillo añade la mitad: 1 + 0,5.&#x27;],[&#x27;¿Cuánto dura una blanca con puntillo?&#x27;,[&#x27;2&#x27;,&#x27;2,5&#x27;,&#x27;3&#x27;,&#x27;4&#x27;],2,&#x27;2 + 1 = 3 tiempos.&#x27;],[&#x27;¿Qué significa 3/4?&#x27;,[&#x27;3 corcheas&#x27;,&#x27;3 negras&#x27;,&#x27;4 negras&#x27;,&#x27;3 blancas&#x27;],1,&#x27;El 4 de abajo representa la negra.&#x27;],[&#x27;¿Qué indica el numerador del compás?&#x27;,[&#x27;La nota&#x27;,&#x27;Cuántas unidades caben&#x27;,&#x27;El volumen&#x27;,&#x27;La velocidad&#x27;],1,&#x27;El número de arriba indica cuántas unidades hay.&#x27;],[&#x27;¿Qué representa el denominador 8?&#x27;,[&#x27;Negra&#x27;,&#x27;Blanca&#x27;,&#x27;Corchea&#x27;,&#x27;Redonda&#x27;],2,&#x27;El 8 corresponde a la corchea.&#x27;],[&#x27;En 3/4 hay una blanca. ¿Qué falta para completar?&#x27;,[&#x27;Una negra&#x27;,&#x27;Una blanca&#x27;,&#x27;Una redonda&#x27;,&#x27;Dos negras&#x27;],0,&#x27;3 − 2 = 1 tiempo.&#x27;],[&#x27;¿Cuántas negras caben en 4/4?&#x27;,[&#x27;2&#x27;,&#x27;3&#x27;,&#x27;4&#x27;,&#x27;8&#x27;],2,&#x27;Cuatro tiempos de negra.&#x27;],[&#x27;¿Cuánto dura un silencio de blanca?&#x27;,[&#x27;1&#x27;,&#x27;2&#x27;,&#x27;3&#x27;,&#x27;4&#x27;],1,&#x27;El silencio tiene la misma duración que su figura.&#x27;],[&#x27;¿Qué hace una ligadura de prolongación?&#x27;,[&#x27;Resta valores&#x27;,&#x27;Une notas de la misma altura y suma duraciones&#x27;,&#x27;Acelera&#x27;,&#x27;Hace un silencio&#x27;],1,&#x27;Las notas ligadas deben tener la misma altura.&#x27;],[&#x27;¿Qué hace el calderón?&#x27;,[&#x27;Divide por dos&#x27;,&#x27;Añade siempre un tiempo&#x27;,&#x27;Prolonga sin duración fija&#x27;,&#x27;Quita el sonido&#x27;],2,&#x27;Depende de la interpretación.&#x27;],[&#x27;¿Cuánto duran dos negras ligadas?&#x27;,[&#x27;1&#x27;,&#x27;2&#x27;,&#x27;3&#x27;,&#x27;4&#x27;],1,&#x27;1 + 1 = 2.&#x27;],[&#x27;¿Cuántas corcheas forman una redonda?&#x27;,[&#x27;4&#x27;,&#x27;6&#x27;,&#x27;8&#x27;,&#x27;16&#x27;],2,&#x27;4 ÷ 0,5 = 8.&#x27;]];
-const E=[...P.slice(0,8),...P.slice(8,16),...P.slice(16,20),[&#x27;¿Cuántas fusas tiene una negra?&#x27;,[&#x27;4&#x27;,&#x27;6&#x27;,&#x27;8&#x27;,&#x27;16&#x27;],2,&#x27;Una negra equivale a ocho fusas.&#x27;],[&#x27;¿Cuántas semicorcheas forman una redonda?&#x27;,[&#x27;8&#x27;,&#x27;12&#x27;,&#x27;16&#x27;,&#x27;32&#x27;],2,&#x27;Una redonda tiene 16 semicorcheas.&#x27;],[&#x27;En 3/4 hay una negra y dos corcheas. ¿Cuánto falta?&#x27;,[&#x27;Nada&#x27;,&#x27;Una negra&#x27;,&#x27;Una blanca&#x27;,&#x27;Una corchea&#x27;],1,&#x27;1 + 0,5 + 0,5 = 2; falta 1.&#x27;],[&#x27;En 2/4 hay una negra con puntillo. ¿Qué falta?&#x27;,[&#x27;Una corchea&#x27;,&#x27;Una negra&#x27;,&#x27;Una blanca&#x27;,&#x27;Nada&#x27;],0,&#x27;2 − 1,5 = 0,5.&#x27;],[&#x27;En 4/4 hay una blanca y una negra. ¿Qué falta?&#x27;,[&#x27;Una corchea&#x27;,&#x27;Una negra&#x27;,&#x27;Una redonda&#x27;,&#x27;Nada&#x27;],1,&#x27;2 + 1 = 3; falta 1.&#x27;]];
-function render(type,arr){document.getElementById(type+&#x27;Qs&#x27;).innerHTML=arr.map((q,i)=&gt;`&lt;div class=&quot;question&quot; id=&quot;${type}q${i}&quot;&gt;&lt;p&gt;${i+1}. ${q[0]}&lt;/p&gt;&lt;div class=&quot;answers&quot;&gt;${q[1].map((a,j)=&gt;`&lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;${type}_${i}&quot; value=&quot;${j}&quot;&gt;${a}&lt;/label&gt;`).join(&#x27;&#x27;)}&lt;/div&gt;&lt;div class=&quot;feedback&quot; id=&quot;${type}f${i}&quot;&gt;&lt;/div&gt;&lt;/div&gt;`).join(&#x27;&#x27;)}render(&#x27;practica&#x27;,P);render(&#x27;examen&#x27;,E);
-function grade(type){let arr=type===&#x27;practica&#x27;?P:E,correct=0,answered=0;arr.forEach((q,i)=&gt;{let sel=document.querySelector(`input[name=&quot;${type}_${i}&quot;]:checked`),fb=document.getElementById(type+&#x27;f&#x27;+i);if(sel)answered++;if(sel&amp;&amp;+sel.value===q[2]){correct++;fb.className=&#x27;feedback good&#x27;;fb.textContent=&#x27;✓ Correcto. &#x27;+q[3]}else{fb.className=&#x27;feedback bad&#x27;;fb.textContent=(sel?&#x27;✗ Incorrecto. &#x27;:&#x27;Sin responder. &#x27;)+&#x27;Respuesta: &#x27;+q[1][q[2]]+&#x27;. &#x27;+q[3]}});document.getElementById(type+&#x27;Score&#x27;).textContent=`Resultado: ${correct}/${arr.length} · Nota: ${(correct/arr.length*10).toFixed(1).replace(&#x27;.&#x27;,&#x27;,&#x27;)}/10 · Respondidas: ${answered}/${arr.length}`;document.getElementById(type+&#x27;Score&#x27;).scrollIntoView({behavior:&#x27;smooth&#x27;,block:&#x27;center&#x27;})}function reset(type){document.querySelectorAll(`#${type} input`).forEach(x=&gt;x.checked=false);document.querySelectorAll(`#${type} .feedback`).forEach(x=&gt;x.textContent=&#x27;&#x27;);document.getElementById(type+&#x27;Score&#x27;).textContent=&#x27;&#x27;;window.scrollTo({top:0,behavior:&#x27;smooth&#x27;})}function show(id){[&#x27;guia&#x27;,&#x27;practica&#x27;,&#x27;examen&#x27;].forEach(x=&gt;document.getElementById(x).classList.toggle(&#x27;hide&#x27;,x!==id));window.scrollTo({top:0,behavior:&#x27;smooth&#x27;})}
-&lt;/script&gt;&lt;/body&gt;&lt;/html&gt;
-"></iframe></details></section><section id="lesson" class="hidden panel"></section><section id="quiz" class="hidden panel"></section><section id="result" class="hidden panel" aria-live="polite"></section></main><script>
-const DATA={"topics": [{"name": "1. Notas y figuras", "guide": "<p>Piensa en una canción: puedes cantar un <b>do</b> cortito o mantener ese mismo <b>do</b> durante más tiempo.</p><div class=\"tip\"><b>Nota = qué sonido es.</b> Do, re, mi, fa, sol, la, si.<br><b>Figura = cuánto dura.</b> Redonda, blanca, negra…</div><p>El pentagrama tiene <b>5 líneas y 4 espacios</b>. Se cuentan desde abajo. La clave de sol sitúa la nota sol en la segunda línea.</p><p>En clave de sol: líneas de abajo arriba <b>mi–sol–si–re–fa</b>; espacios <b>fa–la–do–mi</b>. No confundas «segunda línea» con «segundo espacio».</p>", "qs": [{"q": "¿Qué nos dice el nombre de una nota?", "opts": ["La altura del sonido", "Su duración", "Cuántos compases hay", "La duración del silencio"], "answer": 0, "why": "La nota indica la altura: do, re, mi… La figura indica la duración.", "feedback": ["Has elegido «La altura del sonido». La nota indica la altura: do, re, mi… La figura indica la duración.", "Has elegido «Su duración». La nota indica la altura: do, re, mi… La figura indica la duración.", "Has elegido «Cuántos compases hay». La nota indica la altura: do, re, mi… La figura indica la duración.", "Has elegido «La duración del silencio». La nota indica la altura: do, re, mi… La figura indica la duración."], "topic": 0}, {"q": "Cantamos dos veces SOL, una corta y otra larga. ¿Qué cambia?", "opts": ["La nota", "La figura o duración", "La clave", "El número de líneas"], "answer": 1, "why": "La altura sigue siendo sol; lo que cambia es el tiempo que mantenemos el sonido.", "feedback": ["Has elegido «La nota». La altura sigue siendo sol; lo que cambia es el tiempo que mantenemos el sonido.", "Has elegido «La figura o duración». La altura sigue siendo sol; lo que cambia es el tiempo que mantenemos el sonido.", "Has elegido «La clave». La altura sigue siendo sol; lo que cambia es el tiempo que mantenemos el sonido.", "Has elegido «El número de líneas». La altura sigue siendo sol; lo que cambia es el tiempo que mantenemos el sonido."], "topic": 0}, {"q": "¿Cuántas líneas tiene el pentagrama?", "opts": ["4", "6", "5", "7"], "answer": 2, "why": "Penta significa cinco: tiene 5 líneas y 4 espacios. Se cuentan desde abajo.", "feedback": ["Has elegido «4». Penta significa cinco: tiene 5 líneas y 4 espacios. Se cuentan desde abajo.", "Has elegido «6». Penta significa cinco: tiene 5 líneas y 4 espacios. Se cuentan desde abajo.", "Has elegido «5». Penta significa cinco: tiene 5 líneas y 4 espacios. Se cuentan desde abajo.", "Has elegido «7». Penta significa cinco: tiene 5 líneas y 4 espacios. Se cuentan desde abajo."], "topic": 0}, {"q": "En clave de sol, ¿qué nota está en la segunda línea desde abajo?", "opts": ["Mi", "Sol", "La", "Si"], "answer": 1, "why": "La clave de sol fija SOL en la segunda línea. La primera es mi y el segundo espacio es la.", "feedback": ["Has elegido «Mi». La clave de sol fija SOL en la segunda línea. La primera es mi y el segundo espacio es la.", "Has elegido «Sol». La clave de sol fija SOL en la segunda línea. La primera es mi y el segundo espacio es la.", "Has elegido «La». La clave de sol fija SOL en la segunda línea. La primera es mi y el segundo espacio es la.", "Has elegido «Si». La clave de sol fija SOL en la segunda línea. La primera es mi y el segundo espacio es la."], "topic": 0}, {"q": "¿Cuál de estas palabras es una figura musical?", "opts": ["Do", "Sol", "Blanca", "Fa"], "answer": 2, "why": "Blanca es una figura de duración. Do, sol y fa son nombres de notas.", "feedback": ["Has elegido «Do». Blanca es una figura de duración. Do, sol y fa son nombres de notas.", "Has elegido «Sol». Blanca es una figura de duración. Do, sol y fa son nombres de notas.", "Has elegido «Blanca». Blanca es una figura de duración. Do, sol y fa son nombres de notas.", "Has elegido «Fa». Blanca es una figura de duración. Do, sol y fa son nombres de notas."], "topic": 0}, {"q": "En clave de sol, ¿qué nota está en el primer espacio desde abajo?", "opts": ["Mi", "Sol", "Fa", "La"], "answer": 2, "why": "El primer espacio está entre la primera línea (mi) y la segunda (sol): es fa.", "feedback": ["Has elegido «Mi». El primer espacio está entre la primera línea (mi) y la segunda (sol): es fa.", "Has elegido «Sol». El primer espacio está entre la primera línea (mi) y la segunda (sol): es fa.", "Has elegido «Fa». El primer espacio está entre la primera línea (mi) y la segunda (sol): es fa.", "Has elegido «La». El primer espacio está entre la primera línea (mi) y la segunda (sol): es fa."], "topic": 0}]}, {"name": "2. Duración de las figuras", "guide": "<p>Para estos ejercicios usamos la <b>negra como unidad: 1</b>. Eso no quiere decir «un segundo»: depende de la velocidad de la música.</p><div class=\"figs\"><div><svg role=\"img\" aria-label=\"Redonda\" viewBox=\"0 0 70 80\" width=\"70\" height=\"80\"><ellipse cx=\"23\" cy=\"53\" rx=\"10\" ry=\"6\" transform=\"rotate(-18 23 53)\" fill=\"white\" stroke=\"#243a70\" stroke-width=\"2\"/></svg><b>Redonda</b><span>4 de negra</span></div><div><svg role=\"img\" aria-label=\"Blanca\" viewBox=\"0 0 70 80\" width=\"70\" height=\"80\"><ellipse cx=\"23\" cy=\"53\" rx=\"10\" ry=\"6\" transform=\"rotate(-18 23 53)\" fill=\"white\" stroke=\"#243a70\" stroke-width=\"2\"/><path d=\"M32 52V15\" stroke=\"#243a70\" stroke-width=\"2\"/></svg><b>Blanca</b><span>2 de negra</span></div><div><svg role=\"img\" aria-label=\"Negra\" viewBox=\"0 0 70 80\" width=\"70\" height=\"80\"><ellipse cx=\"23\" cy=\"53\" rx=\"10\" ry=\"6\" transform=\"rotate(-18 23 53)\" fill=\"#243a70\" stroke=\"#243a70\" stroke-width=\"2\"/><path d=\"M32 52V15\" stroke=\"#243a70\" stroke-width=\"2\"/></svg><b>Negra</b><span>1 de negra</span></div><div><svg role=\"img\" aria-label=\"Corchea\" viewBox=\"0 0 70 80\" width=\"70\" height=\"80\"><ellipse cx=\"23\" cy=\"53\" rx=\"10\" ry=\"6\" transform=\"rotate(-18 23 53)\" fill=\"#243a70\" stroke=\"#243a70\" stroke-width=\"2\"/><path d=\"M32 52V15\" stroke=\"#243a70\" stroke-width=\"2\"/><path d=\"M32 15 Q52 23 38 37\" fill=\"none\" stroke=\"#243a70\" stroke-width=\"3\"/></svg><b>Corchea</b><span>1/2 de negra</span></div><div><svg role=\"img\" aria-label=\"Semicorchea\" viewBox=\"0 0 70 80\" width=\"70\" height=\"80\"><ellipse cx=\"23\" cy=\"53\" rx=\"10\" ry=\"6\" transform=\"rotate(-18 23 53)\" fill=\"#243a70\" stroke=\"#243a70\" stroke-width=\"2\"/><path d=\"M32 52V15\" stroke=\"#243a70\" stroke-width=\"2\"/><path d=\"M32 15 Q52 23 38 37\" fill=\"none\" stroke=\"#243a70\" stroke-width=\"3\"/><path d=\"M32 23 Q52 31 38 45\" fill=\"none\" stroke=\"#243a70\" stroke-width=\"3\"/></svg><b>Semicorchea</b><span>1/4 de negra</span></div><div><svg role=\"img\" aria-label=\"Fusa\" viewBox=\"0 0 70 80\" width=\"70\" height=\"80\"><ellipse cx=\"23\" cy=\"53\" rx=\"10\" ry=\"6\" transform=\"rotate(-18 23 53)\" fill=\"#243a70\" stroke=\"#243a70\" stroke-width=\"2\"/><path d=\"M32 52V15\" stroke=\"#243a70\" stroke-width=\"2\"/><path d=\"M32 15 Q52 23 38 37\" fill=\"none\" stroke=\"#243a70\" stroke-width=\"3\"/><path d=\"M32 23 Q52 31 38 45\" fill=\"none\" stroke=\"#243a70\" stroke-width=\"3\"/><path d=\"M32 31 Q52 39 38 53\" fill=\"none\" stroke=\"#243a70\" stroke-width=\"3\"/></svg><b>Fusa</b><span>1/8 de negra</span></div><div><svg role=\"img\" aria-label=\"Semifusa\" viewBox=\"0 0 70 80\" width=\"70\" height=\"80\"><ellipse cx=\"23\" cy=\"53\" rx=\"10\" ry=\"6\" transform=\"rotate(-18 23 53)\" fill=\"#243a70\" stroke=\"#243a70\" stroke-width=\"2\"/><path d=\"M32 52V15\" stroke=\"#243a70\" stroke-width=\"2\"/><path d=\"M32 15 Q52 23 38 37\" fill=\"none\" stroke=\"#243a70\" stroke-width=\"3\"/><path d=\"M32 23 Q52 31 38 45\" fill=\"none\" stroke=\"#243a70\" stroke-width=\"3\"/><path d=\"M32 31 Q52 39 38 53\" fill=\"none\" stroke=\"#243a70\" stroke-width=\"3\"/><path d=\"M32 39 Q52 47 38 61\" fill=\"none\" stroke=\"#243a70\" stroke-width=\"3\"/></svg><b>Semifusa</b><span>1/16 de negra</span></div></div><p><b>Cada paso hacia la derecha divide la duración entre 2.</b> Redonda 4 → blanca 2 → negra 1 → corchea 1/2.</p><div class=\"tip\">Da palmas regulares: una blanca dura lo mismo que <b>dos palmas de negra</b>. Una redonda dura cuatro. Entre dos palmas caben dos corcheas.</div><p>Las fracciones son partes de una negra: 1/2 es media; 1/4 es un cuarto. En esta tabla todas las duraciones se miden con esa misma unidad.</p>", "qs": [{"q": "Si la negra vale 1, ¿cuánto vale una redonda?", "opts": ["4", "2", "1", "8"], "answer": 0, "why": "La redonda vale 4 de negra. Cada figura dura la mitad que la anterior.", "feedback": ["Has elegido «4». La redonda vale 4 de negra. Cada figura dura la mitad que la anterior.", "Has elegido «2». La redonda vale 4 de negra. Cada figura dura la mitad que la anterior.", "Has elegido «1». La redonda vale 4 de negra. Cada figura dura la mitad que la anterior.", "Has elegido «8». La redonda vale 4 de negra. Cada figura dura la mitad que la anterior."], "topic": 1}, {"q": "Si la negra vale 1, ¿cuánto vale una blanca?", "opts": ["4", "2", "1", "0,5"], "answer": 1, "why": "La blanca vale 2 de negra. Cada figura dura la mitad que la anterior.", "feedback": ["Has elegido «4». La blanca vale 2 de negra. Cada figura dura la mitad que la anterior.", "Has elegido «2». La blanca vale 2 de negra. Cada figura dura la mitad que la anterior.", "Has elegido «1». La blanca vale 2 de negra. Cada figura dura la mitad que la anterior.", "Has elegido «0,5». La blanca vale 2 de negra. Cada figura dura la mitad que la anterior."], "topic": 1}, {"q": "Si la negra vale 1, ¿cuánto vale una negra?", "opts": ["2", "4", "1", "0,5"], "answer": 2, "why": "La negra vale 1 de negra. Cada figura dura la mitad que la anterior.", "feedback": ["Has elegido «2». La negra vale 1 de negra. Cada figura dura la mitad que la anterior.", "Has elegido «4». La negra vale 1 de negra. Cada figura dura la mitad que la anterior.", "Has elegido «1». La negra vale 1 de negra. Cada figura dura la mitad que la anterior.", "Has elegido «0,5». La negra vale 1 de negra. Cada figura dura la mitad que la anterior."], "topic": 1}, {"q": "Si la negra vale 1, ¿cuánto vale una corchea?", "opts": ["1", "2", "0,25", "0,5"], "answer": 3, "why": "La corchea vale 0,5 de negra. Cada figura dura la mitad que la anterior.", "feedback": ["Has elegido «1». La corchea vale 0,5 de negra. Cada figura dura la mitad que la anterior.", "Has elegido «2». La corchea vale 0,5 de negra. Cada figura dura la mitad que la anterior.", "Has elegido «0,25». La corchea vale 0,5 de negra. Cada figura dura la mitad que la anterior.", "Has elegido «0,5». La corchea vale 0,5 de negra. Cada figura dura la mitad que la anterior."], "topic": 1}, {"q": "Si la negra vale 1, ¿cuánto vale una semicorchea?", "opts": ["0,25", "0,5", "1", "0,125"], "answer": 0, "why": "La semicorchea vale 0,25 de negra. Cada figura dura la mitad que la anterior.", "feedback": ["Has elegido «0,25». La semicorchea vale 0,25 de negra. Cada figura dura la mitad que la anterior.", "Has elegido «0,5». La semicorchea vale 0,25 de negra. Cada figura dura la mitad que la anterior.", "Has elegido «1». La semicorchea vale 0,25 de negra. Cada figura dura la mitad que la anterior.", "Has elegido «0,125». La semicorchea vale 0,25 de negra. Cada figura dura la mitad que la anterior."], "topic": 1}, {"q": "Si la negra vale 1, ¿cuánto vale una fusa?", "opts": ["0,25", "0,125", "0,5", "0,0625"], "answer": 1, "why": "La fusa vale 0,125 de negra. Cada figura dura la mitad que la anterior.", "feedback": ["Has elegido «0,25». La fusa vale 0,125 de negra. Cada figura dura la mitad que la anterior.", "Has elegido «0,125». La fusa vale 0,125 de negra. Cada figura dura la mitad que la anterior.", "Has elegido «0,5». La fusa vale 0,125 de negra. Cada figura dura la mitad que la anterior.", "Has elegido «0,0625». La fusa vale 0,125 de negra. Cada figura dura la mitad que la anterior."], "topic": 1}]}, {"name": "3. Equivalencias sin líos", "guide": "<p>Pregunta típica: «¿Cuántas corcheas caben en una blanca?» No sumes los nombres. Recorre los pasos:</p><div class=\"tip\">1 blanca → 2 negras → 4 corcheas.<br><b>Respuesta: 4 corcheas.</b></div><p>Al ir hacia figuras más pequeñas, multiplica por 2 en cada paso. Al volver hacia las grandes, divide entre 2.</p><p>Otro ejemplo: blanca → negra → corchea → semicorchea. Son tres pasos: <b>2 × 2 × 2 = 8 semicorcheas</b>.</p><p>Comprueba el resultado: 8 × 1/4 = 2, que es el valor de la blanca.</p>", "qs": [{"q": "¿Cuántas corcheas equivalen a una negra?", "opts": ["2", "1", "4", "8"], "answer": 0, "why": "Negra → corchea: un paso. Multiplica por 2: son 2 corcheas.", "feedback": ["Has elegido «2». Negra → corchea: un paso. Multiplica por 2: son 2 corcheas.", "Has elegido «1». Negra → corchea: un paso. Multiplica por 2: son 2 corcheas.", "Has elegido «4». Negra → corchea: un paso. Multiplica por 2: son 2 corcheas.", "Has elegido «8». Negra → corchea: un paso. Multiplica por 2: son 2 corcheas."], "topic": 2}, {"q": "¿Cuántas negras equivalen a una redonda?", "opts": ["2", "4", "8", "16"], "answer": 1, "why": "Redonda → blanca → negra: 2 × 2 = 4 negras.", "feedback": ["Has elegido «2». Redonda → blanca → negra: 2 × 2 = 4 negras.", "Has elegido «4». Redonda → blanca → negra: 2 × 2 = 4 negras.", "Has elegido «8». Redonda → blanca → negra: 2 × 2 = 4 negras.", "Has elegido «16». Redonda → blanca → negra: 2 × 2 = 4 negras."], "topic": 2}, {"q": "¿Cuántas semicorcheas equivalen a una blanca?", "opts": ["2", "4", "8", "16"], "answer": 2, "why": "Blanca → negra → corchea → semicorchea: 2 × 2 × 2 = 8.", "feedback": ["Has elegido «2». Blanca → negra → corchea → semicorchea: 2 × 2 × 2 = 8.", "Has elegido «4». Blanca → negra → corchea → semicorchea: 2 × 2 × 2 = 8.", "Has elegido «8». Blanca → negra → corchea → semicorchea: 2 × 2 × 2 = 8.", "Has elegido «16». Blanca → negra → corchea → semicorchea: 2 × 2 × 2 = 8."], "topic": 2}, {"q": "¿Cuántas fusas equivalen a una corchea?", "opts": ["2", "8", "16", "4"], "answer": 3, "why": "Corchea → semicorchea → fusa: dos pasos, 2 × 2 = 4.", "feedback": ["Has elegido «2». Corchea → semicorchea → fusa: dos pasos, 2 × 2 = 4.", "Has elegido «8». Corchea → semicorchea → fusa: dos pasos, 2 × 2 = 4.", "Has elegido «16». Corchea → semicorchea → fusa: dos pasos, 2 × 2 = 4.", "Has elegido «4». Corchea → semicorchea → fusa: dos pasos, 2 × 2 = 4."], "topic": 2}, {"q": "¿Cuántas semifusas equivalen a una blanca?", "opts": ["32", "8", "16", "64"], "answer": 0, "why": "Blanca → negra → corchea → semicorchea → fusa → semifusa: cinco pasos, 2⁵ = 32.", "feedback": ["Has elegido «32». Blanca → negra → corchea → semicorchea → fusa → semifusa: cinco pasos, 2⁵ = 32.", "Has elegido «8». Blanca → negra → corchea → semicorchea → fusa → semifusa: cinco pasos, 2⁵ = 32.", "Has elegido «16». Blanca → negra → corchea → semicorchea → fusa → semifusa: cinco pasos, 2⁵ = 32.", "Has elegido «64». Blanca → negra → corchea → semicorchea → fusa → semifusa: cinco pasos, 2⁵ = 32."], "topic": 2}, {"q": "¿Cuántas blancas equivalen a ocho corcheas?", "opts": ["1", "2", "4", "8"], "answer": 1, "why": "8 corcheas = 4 negras = 2 blancas. Al ir a figuras más largas, divides entre 2 en cada paso.", "feedback": ["Has elegido «1». 8 corcheas = 4 negras = 2 blancas. Al ir a figuras más largas, divides entre 2 en cada paso.", "Has elegido «2». 8 corcheas = 4 negras = 2 blancas. Al ir a figuras más largas, divides entre 2 en cada paso.", "Has elegido «4». 8 corcheas = 4 negras = 2 blancas. Al ir a figuras más largas, divides entre 2 en cada paso.", "Has elegido «8». 8 corcheas = 4 negras = 2 blancas. Al ir a figuras más largas, divides entre 2 en cada paso."], "topic": 2}]}, {"name": "4. Silencios", "guide": "<p>Un silencio significa: <b>no suenes, pero sigue contando</b>. No se detiene el pulso.</p><div class=\"tip\">Blanca: suena durante 2 negras.<br>Silencio de blanca: callas durante 2 negras.</div><p>Cada silencio tiene el mismo valor que su figura: redonda 4, blanca 2, negra 1, corchea 1/2, semicorchea 1/4, fusa 1/8 y semifusa 1/16.</p><svg role=\"img\" aria-label=\"Silencio de redonda cuelga de cuarta línea; silencio de blanca se apoya en tercera\" viewBox=\"0 0 440 135\" width=\"440\" style=\"max-width:100%\"><path d=\"M20 30H420\" stroke=\"#8390a7\"/><path d=\"M20 45H420\" stroke=\"#8390a7\"/><path d=\"M20 60H420\" stroke=\"#8390a7\"/><path d=\"M20 75H420\" stroke=\"#8390a7\"/><path d=\"M20 90H420\" stroke=\"#8390a7\"/><path d=\"M95 45h27v9H95z M290 51h27v9h-27z\" fill=\"#243a70\"/><text x=\"50\" y=\"120\" font-size=\"14\">Redonda: cuelga</text><text x=\"255\" y=\"120\" font-size=\"14\">Blanca: se apoya</text></svg><p><b>Truco:</b> el silencio de redonda «cuelga» por debajo de la cuarta línea. El de blanca se apoya encima de la tercera.</p><p>Ejemplo en 4/4: blanca + silencio de negra + negra = 2 + 1 + 1 = 4. Solo suenan tres unidades, pero el compás dura cuatro.</p>", "qs": [{"q": "¿Cuánto dura un silencio de blanca, si la negra vale 1?", "opts": ["2", "0", "1", "4"], "answer": 0, "why": "Callar no significa durar cero. El silencio de blanca dura 2 negras, igual que la blanca.", "feedback": ["Has elegido «2». Callar no significa durar cero. El silencio de blanca dura 2 negras, igual que la blanca.", "Has elegido «0». Callar no significa durar cero. El silencio de blanca dura 2 negras, igual que la blanca.", "Has elegido «1». Callar no significa durar cero. El silencio de blanca dura 2 negras, igual que la blanca.", "Has elegido «4». Callar no significa durar cero. El silencio de blanca dura 2 negras, igual que la blanca."], "topic": 3}, {"q": "Negra + silencio de negra + blanca: ¿cuánto dura todo, en negras?", "opts": ["3", "4", "2", "5"], "answer": 1, "why": "Cuenta también la pausa: 1 + 1 + 2 = 4.", "feedback": ["Has elegido «3». Cuenta también la pausa: 1 + 1 + 2 = 4.", "Has elegido «4». Cuenta también la pausa: 1 + 1 + 2 = 4.", "Has elegido «2». Cuenta también la pausa: 1 + 1 + 2 = 4.", "Has elegido «5». Cuenta también la pausa: 1 + 1 + 2 = 4."], "topic": 3}, {"q": "Mientras hay un silencio, ¿qué hacemos?", "opts": ["Dejamos de contar", "Seguimos contando sin sonar", "Duplicamos la velocidad", "Terminamos el compás"], "answer": 1, "why": "El pulso continúa durante la pausa. El silencio ocupa tiempo dentro del compás.", "feedback": ["Has elegido «Dejamos de contar». El pulso continúa durante la pausa. El silencio ocupa tiempo dentro del compás.", "Has elegido «Seguimos contando sin sonar». El pulso continúa durante la pausa. El silencio ocupa tiempo dentro del compás.", "Has elegido «Duplicamos la velocidad». El pulso continúa durante la pausa. El silencio ocupa tiempo dentro del compás.", "Has elegido «Terminamos el compás». El pulso continúa durante la pausa. El silencio ocupa tiempo dentro del compás."], "topic": 3}, {"q": "¿Dónde se coloca el silencio de redonda?", "opts": ["Cuelga de la cuarta línea", "Encima de la tercera línea", "En cualquier espacio", "Debajo de la primera línea"], "answer": 0, "why": "Redonda: rectángulo por debajo de la cuarta línea. Blanca: rectángulo por encima de la tercera.", "feedback": ["Has elegido «Cuelga de la cuarta línea». Redonda: rectángulo por debajo de la cuarta línea. Blanca: rectángulo por encima de la tercera.", "Has elegido «Encima de la tercera línea». Redonda: rectángulo por debajo de la cuarta línea. Blanca: rectángulo por encima de la tercera.", "Has elegido «En cualquier espacio». Redonda: rectángulo por debajo de la cuarta línea. Blanca: rectángulo por encima de la tercera.", "Has elegido «Debajo de la primera línea». Redonda: rectángulo por debajo de la cuarta línea. Blanca: rectángulo por encima de la tercera."], "topic": 3}, {"q": "¿Dónde se coloca el silencio de blanca?", "opts": ["Cuelga de la cuarta línea", "Se apoya sobre la tercera línea", "En la segunda línea", "Siempre fuera del pentagrama"], "answer": 1, "why": "El silencio de blanca descansa encima de la tercera línea; el de redonda cuelga de la cuarta.", "feedback": ["Has elegido «Cuelga de la cuarta línea». El silencio de blanca descansa encima de la tercera línea; el de redonda cuelga de la cuarta.", "Has elegido «Se apoya sobre la tercera línea». El silencio de blanca descansa encima de la tercera línea; el de redonda cuelga de la cuarta.", "Has elegido «En la segunda línea». El silencio de blanca descansa encima de la tercera línea; el de redonda cuelga de la cuarta.", "Has elegido «Siempre fuera del pentagrama». El silencio de blanca descansa encima de la tercera línea; el de redonda cuelga de la cuarta."], "topic": 3}, {"q": "¿Cuántos silencios de corchea duran lo mismo que un silencio de negra?", "opts": ["1", "2", "4", "8"], "answer": 1, "why": "Cada silencio de corchea vale 1/2: 1/2 + 1/2 = 1.", "feedback": ["Has elegido «1». Cada silencio de corchea vale 1/2: 1/2 + 1/2 = 1.", "Has elegido «2». Cada silencio de corchea vale 1/2: 1/2 + 1/2 = 1.", "Has elegido «4». Cada silencio de corchea vale 1/2: 1/2 + 1/2 = 1.", "Has elegido «8». Cada silencio de corchea vale 1/2: 1/2 + 1/2 = 1."], "topic": 3}]}, {"name": "5. Compases: llenar una caja", "guide": "<p>Imagina que cada compás es una caja con una capacidad. Las figuras y los silencios tienen que sumar esa cantidad.</p><div class=\"tip\"><b>3/4:</b> arriba 3 = tres unidades; abajo 4 = la unidad escrita es la negra. Caben <b>3 negras</b>.</div><p>En 2/4 caben 2 negras; en 3/4, 3; en 4/4, 4. El número de abajo <b>no es algo que debas sumar</b>.</p><p><b>Ejemplo:</b> en 3/4 hay una blanca. Capacidad 3 − usado 2 = falta 1. Añade una negra o un silencio de negra.</p><p><b>6/8:</b> caben 6 corcheas y se agrupan habitualmente en <b>dos pulsos de tres corcheas</b>. Cada pulso vale una negra con puntillo. No son seis negras ni seis pulsos principales.</p><p>En 6/8, seis corcheas duran lo mismo que tres negras, pero su agrupación rítmica es diferente a la habitual de 3/4.</p>\n<h3>El pulso y el acento natural</h3>\n<p>El <b>pulso</b> es el latido regular de la música. El <b>compás</b> agrupa pulsos que se repiten. El primer pulso de cada compás lleva el <b>acento natural</b> y se siente más fuerte.</p>\n<p>Al comienzo del pentagrama verás dos números. En <b>2/4, 3/4 y 4/4</b>, el número de arriba dice cuántos pulsos hay y el 4 de abajo indica que cada pulso vale una negra.</p>\n<div style=\"overflow-x:auto\"><table class=\"compas-table\">\n<thead><tr><th scope=\"col\">Compás</th><th scope=\"col\">Tipo</th><th scope=\"col\">Marca el acento</th><th scope=\"col\">Cuánto cabe</th></tr></thead>\n<tbody>\n<tr><th scope=\"row\">2/4</th><td>Binario</td><td><b>UNO</b> dos</td><td>1 blanca, 2 negras, 4 corcheas u 8 semicorcheas</td></tr>\n<tr><th scope=\"row\">3/4</th><td>Ternario</td><td><b>UNO</b> dos tres</td><td>1 blanca y 1 negra, 3 negras, 6 corcheas o 12 semicorcheas</td></tr>\n<tr><th scope=\"row\">4/4</th><td>Cuaternario</td><td><b>UNO</b> dos tres cuatro</td><td>1 redonda, 2 blancas, 4 negras, 8 corcheas o 16 semicorcheas</td></tr>\n</tbody></table></div>\n<p>Da un golpe más fuerte en <b>UNO</b> y suave en los otros pulsos. Prueba a repetir <b>ME</b>-sa para sentir dos pulsos y <b>MÁ</b>-gi-co para sentir tres.</p>\n<p>Con la misma regla, un <b>5/4</b> dura lo mismo que 5 negras y un <b>7/4</b> dura lo mismo que 7 negras. Según el libro, el 2/4 o el 4/4 aparecen en tangos, tientos, rumbas gitanas y zambras, y el 3/4 aparece en fandangos y sevillanas.</p>\n<h3>Ejercicio 6 del libro · Copia y completa los ritmos</h3>\n<p>Copia cada fila en papel. Las barras <b>|</b> separan compases. Suma las figuras y silencios de cada compás y añade lo que falte. Si ya está completo, déjalo tal cual.</p>\n<p class=\"tip\"><b>Ejemplo en 2/4.</b> Un silencio de corchea y dos semicorcheas suman ½ + ¼ + ¼ = 1. Como necesitamos 2, podemos añadir una negra.</p>\n<ul>\n<li><b>2/4</b> · Silencio de corchea + corchea + negra | Silencio de corchea + 2 semicorcheas | 2 corcheas | 4 semicorcheas.</li>\n<li><b>3/4</b> · Silencio de corchea + 2 semicorcheas | 2 negras | Silencio de corchea + corchea | Blanca + silencio de negra.</li>\n<li><b>4/4</b> · 4 semicorcheas + silencio de corchea + corchea + negra | Silencio de corchea + 2 semicorcheas + negra.</li>\n</ul>\n<details><summary>Ver una solución para cada ritmo</summary>\n<ul>\n<li><b>2/4.</b> El primer compás ya está completo. En cada uno de los otros tres falta 1 pulso. Añade una negra a cada uno.</li>\n<li><b>3/4.</b> Añade una blanca al primero, una negra al segundo y una blanca al tercero. El cuarto ya está completo.</li>\n<li><b>4/4.</b> Añade una negra al primero y una blanca al segundo.</li>\n</ul>\n<p>También puedes completar con figuras o silencios que sumen la misma duración.</p>\n</details>\n", "qs": [{"q": "En un compás de 3/4 hay una blanca. ¿Cuántas negras faltan?", "opts": ["1", "2", "3", "0"], "answer": 0, "why": "Capacidad 3; blanca 2. Resta: 3 − 2 = 1 negra.", "feedback": ["Has elegido «1». Capacidad 3; blanca 2. Resta: 3 − 2 = 1 negra.", "Has elegido «2». Capacidad 3; blanca 2. Resta: 3 − 2 = 1 negra.", "Has elegido «3». Capacidad 3; blanca 2. Resta: 3 − 2 = 1 negra.", "Has elegido «0». Capacidad 3; blanca 2. Resta: 3 − 2 = 1 negra."], "topic": 4}, {"q": "En 4/4 hay una blanca y una negra. ¿Cuántas negras faltan?", "opts": ["0", "1", "2", "3"], "answer": 1, "why": "Suma lo que hay: 2 + 1 = 3. Después: 4 − 3 = 1.", "feedback": ["Has elegido «0». Suma lo que hay: 2 + 1 = 3. Después: 4 − 3 = 1.", "Has elegido «1». Suma lo que hay: 2 + 1 = 3. Después: 4 − 3 = 1.", "Has elegido «2». Suma lo que hay: 2 + 1 = 3. Después: 4 − 3 = 1.", "Has elegido «3». Suma lo que hay: 2 + 1 = 3. Después: 4 − 3 = 1."], "topic": 4}, {"q": "En 2/4 hay dos corcheas. ¿Cuántas negras faltan?", "opts": ["0", "2", "1", "0,5"], "answer": 2, "why": "Dos corcheas suman 1 negra. El compás admite 2: falta 2 − 1 = 1.", "feedback": ["Has elegido «0». Dos corcheas suman 1 negra. El compás admite 2: falta 2 − 1 = 1.", "Has elegido «2». Dos corcheas suman 1 negra. El compás admite 2: falta 2 − 1 = 1.", "Has elegido «1». Dos corcheas suman 1 negra. El compás admite 2: falta 2 − 1 = 1.", "Has elegido «0,5». Dos corcheas suman 1 negra. El compás admite 2: falta 2 − 1 = 1."], "topic": 4}, {"q": "En 3/4, ¿qué significa el 4 de abajo?", "opts": ["Caben cuatro notas", "La unidad escrita es la negra", "Hay cuatro compases", "La unidad es la blanca"], "answer": 1, "why": "El denominador 4 representa la negra; el 3 de arriba indica tres unidades de esa figura.", "feedback": ["Has elegido «Caben cuatro notas». El denominador 4 representa la negra; el 3 de arriba indica tres unidades de esa figura.", "Has elegido «La unidad escrita es la negra». El denominador 4 representa la negra; el 3 de arriba indica tres unidades de esa figura.", "Has elegido «Hay cuatro compases». El denominador 4 representa la negra; el 3 de arriba indica tres unidades de esa figura.", "Has elegido «La unidad es la blanca». El denominador 4 representa la negra; el 3 de arriba indica tres unidades de esa figura."], "topic": 4}, {"q": "¿Cómo se agrupan normalmente las seis corcheas de 6/8?", "opts": ["En seis pulsos de negra", "En dos pulsos de tres corcheas", "En cuatro pulsos iguales", "En tres pulsos de blanca"], "answer": 1, "why": "6/8 es un compás compuesto: 3 corcheas + 3 corcheas, dos pulsos de negra con puntillo.", "feedback": ["Has elegido «En seis pulsos de negra». 6/8 es un compás compuesto: 3 corcheas + 3 corcheas, dos pulsos de negra con puntillo.", "Has elegido «En dos pulsos de tres corcheas». 6/8 es un compás compuesto: 3 corcheas + 3 corcheas, dos pulsos de negra con puntillo.", "Has elegido «En cuatro pulsos iguales». 6/8 es un compás compuesto: 3 corcheas + 3 corcheas, dos pulsos de negra con puntillo.", "Has elegido «En tres pulsos de blanca». 6/8 es un compás compuesto: 3 corcheas + 3 corcheas, dos pulsos de negra con puntillo."], "topic": 4}, {"q": "Blanca + blanca + negra, ¿cabe exactamente en un solo compás de 4/4?", "opts": ["Sí, suma 4", "No, suma 5", "No, suma 3", "Sí, porque son tres figuras"], "answer": 1, "why": "No cuentes los dibujos: suma sus valores. 2 + 2 + 1 = 5; supera la capacidad de 4.", "feedback": ["Has elegido «Sí, suma 4». No cuentes los dibujos: suma sus valores. 2 + 2 + 1 = 5; supera la capacidad de 4.", "Has elegido «No, suma 5». No cuentes los dibujos: suma sus valores. 2 + 2 + 1 = 5; supera la capacidad de 4.", "Has elegido «No, suma 3». No cuentes los dibujos: suma sus valores. 2 + 2 + 1 = 5; supera la capacidad de 4.", "Has elegido «Sí, porque son tres figuras». No cuentes los dibujos: suma sus valores. 2 + 2 + 1 = 5; supera la capacidad de 4."], "topic": 4}, {"q": "¿Dónde cae el acento natural al repetir un compás de 2/4?", "opts": ["En el primer pulso de cada compás", "En el segundo pulso de cada compás", "En todos los pulsos por igual"], "answer": 0, "why": "Marca UNO fuerte y dos suave. El acento vuelve cada dos pulsos.", "topic": 4, "feedback": ["Marca UNO fuerte y dos suave. El acento vuelve cada dos pulsos.", "Marca UNO fuerte y dos suave. El acento vuelve cada dos pulsos.", "Marca UNO fuerte y dos suave. El acento vuelve cada dos pulsos."]}, {"q": "En el 2/4 del libro hay un silencio de corchea y dos semicorcheas. ¿Qué figura puedes añadir para completarlo?", "opts": ["Una blanca", "Una negra", "Una corchea"], "answer": 1, "why": "½ + ¼ + ¼ = 1 pulso. Falta 1 para llegar a 2, que es lo que dura una negra.", "topic": 4, "feedback": ["½ + ¼ + ¼ = 1 pulso. Falta 1 para llegar a 2, que es lo que dura una negra.", "½ + ¼ + ¼ = 1 pulso. Falta 1 para llegar a 2, que es lo que dura una negra.", "½ + ¼ + ¼ = 1 pulso. Falta 1 para llegar a 2, que es lo que dura una negra."]}, {"q": "Si das un golpe fuerte y dos suaves y repites el patrón, ¿qué compás simple estás marcando?", "opts": ["2/4, binario", "4/4, cuaternario", "3/4, ternario"], "answer": 2, "why": "El patrón UNO, dos, tres tiene tres pulsos. En 3/4 cada pulso vale una negra.", "topic": 4, "feedback": ["El patrón UNO, dos, tres tiene tres pulsos. En 3/4 cada pulso vale una negra.", "El patrón UNO, dos, tres tiene tres pulsos. En 3/4 cada pulso vale una negra.", "El patrón UNO, dos, tres tiene tres pulsos. En 3/4 cada pulso vale una negra."]}, {"q": "En el 3/4 del libro hay un silencio de corchea y una corchea. ¿Qué figura puedes añadir?", "opts": ["Una blanca", "Una negra", "Una redonda"], "answer": 0, "why": "½ + ½ = 1 pulso. Faltan 2 para llegar a 3. Una blanca vale 2 pulsos de negra.", "topic": 4, "feedback": ["½ + ½ = 1 pulso. Faltan 2 para llegar a 3. Una blanca vale 2 pulsos de negra.", "½ + ½ = 1 pulso. Faltan 2 para llegar a 3. Una blanca vale 2 pulsos de negra.", "½ + ½ = 1 pulso. Faltan 2 para llegar a 3. Una blanca vale 2 pulsos de negra."]}, {"q": "¿Qué indica el 7 en el compás de 7/4?", "opts": ["Que el compás dura siete corcheas", "Que el compás dura siete negras", "Que cada negra dura siete pulsos"], "answer": 1, "why": "El 7 indica cuántas unidades caben y el 4 indica que cada unidad es una negra. En 5/4 caben cinco y en 7/4, siete.", "topic": 4, "feedback": ["El 7 indica cuántas unidades caben y el 4 indica que cada unidad es una negra. En 5/4 caben cinco y en 7/4, siete.", "El 7 indica cuántas unidades caben y el 4 indica que cada unidad es una negra. En 5/4 caben cinco y en 7/4, siete.", "El 7 indica cuántas unidades caben y el 4 indica que cada unidad es una negra. En 5/4 caben cinco y en 7/4, siete."]}, {"q": "En el 4/4 del libro hay cuatro semicorcheas, un silencio de corchea, una corchea y una negra. ¿Qué figura cabe en el hueco?", "opts": ["Una corchea", "Una blanca", "Una negra"], "answer": 2, "why": "Las cuatro semicorcheas suman 1, el silencio y la corchea suman 1, y la negra vale 1. Hay 3 pulsos. Falta 1.", "topic": 4, "feedback": ["Las cuatro semicorcheas suman 1, el silencio y la corchea suman 1, y la negra vale 1. Hay 3 pulsos. Falta 1.", "Las cuatro semicorcheas suman 1, el silencio y la corchea suman 1, y la negra vale 1. Hay 3 pulsos. Falta 1.", "Las cuatro semicorcheas suman 1, el silencio y la corchea suman 1, y la negra vale 1. Hay 3 pulsos. Falta 1."]}]}, {"name": "6. Puntillo, ligadura y calderón", "guide": "<p>Son tres maneras de alargar, pero cada una funciona de un modo diferente.</p><div class=\"tip\"><b>Puntillo:</b> añade la mitad del valor original.<br>Blanca: 2. Mitad: 1. Total: <b>2 + 1 = 3</b>.<br>Negra: 1. Mitad: 1/2. Total: <b>1 + 1/2 = 1,5</b>.</div><p><b>Ligadura de prolongación:</b> une notas de la misma altura y suma sus valores. Dos SOL ligados (blanca y negra) se tocan como un solo sonido continuo de 3 negras. No vale unir dos alturas distintas para este tipo de ligadura.</p><p><b>Calderón:</b> se mantiene el sonido o el silencio más allá de lo escrito, según la interpretación. No añade siempre una cantidad fija.</p><p><b>Ejemplo completo:</b> en 2/4 hay una negra con puntillo (1,5). Falta 2 − 1,5 = 0,5: una corchea.</p>", "qs": [{"q": "¿Cuánto vale una blanca con puntillo, en negras?", "opts": ["3", "2", "4", "2,5"], "answer": 0, "why": "El puntillo añade la mitad de 2, que es 1: 2 + 1 = 3. No añade siempre medio tiempo.", "feedback": ["Has elegido «3». El puntillo añade la mitad de 2, que es 1: 2 + 1 = 3. No añade siempre medio tiempo.", "Has elegido «2». El puntillo añade la mitad de 2, que es 1: 2 + 1 = 3. No añade siempre medio tiempo.", "Has elegido «4». El puntillo añade la mitad de 2, que es 1: 2 + 1 = 3. No añade siempre medio tiempo.", "Has elegido «2,5». El puntillo añade la mitad de 2, que es 1: 2 + 1 = 3. No añade siempre medio tiempo."], "topic": 5}, {"q": "¿Cuánto vale una negra con puntillo, en negras?", "opts": ["1", "1,5", "2", "0,5"], "answer": 1, "why": "El puntillo añade la mitad de 1: 1 + 0,5 = 1,5.", "feedback": ["Has elegido «1». El puntillo añade la mitad de 1: 1 + 0,5 = 1,5.", "Has elegido «1,5». El puntillo añade la mitad de 1: 1 + 0,5 = 1,5.", "Has elegido «2». El puntillo añade la mitad de 1: 1 + 0,5 = 1,5.", "Has elegido «0,5». El puntillo añade la mitad de 1: 1 + 0,5 = 1,5."], "topic": 5}, {"q": "¿Cuánto vale una redonda con puntillo, en negras?", "opts": ["4", "5", "6", "8"], "answer": 2, "why": "Redonda 4; mitad de 4 = 2. Total: 4 + 2 = 6.", "feedback": ["Has elegido «4». Redonda 4; mitad de 4 = 2. Total: 4 + 2 = 6.", "Has elegido «5». Redonda 4; mitad de 4 = 2. Total: 4 + 2 = 6.", "Has elegido «6». Redonda 4; mitad de 4 = 2. Total: 4 + 2 = 6.", "Has elegido «8». Redonda 4; mitad de 4 = 2. Total: 4 + 2 = 6."], "topic": 5}, {"q": "Dos SOL ligados: blanca + negra. ¿Cuánto dura el sonido, en negras?", "opts": ["1", "2", "4", "3"], "answer": 3, "why": "La ligadura suma 2 + 1 = 3 y mantiene un solo sonido continuo porque ambas notas son sol.", "feedback": ["Has elegido «1». La ligadura suma 2 + 1 = 3 y mantiene un solo sonido continuo porque ambas notas son sol.", "Has elegido «2». La ligadura suma 2 + 1 = 3 y mantiene un solo sonido continuo porque ambas notas son sol.", "Has elegido «4». La ligadura suma 2 + 1 = 3 y mantiene un solo sonido continuo porque ambas notas son sol.", "Has elegido «3». La ligadura suma 2 + 1 = 3 y mantiene un solo sonido continuo porque ambas notas son sol."], "topic": 5}, {"q": "¿Qué condición exige la ligadura de prolongación?", "opts": ["Notas de distinta altura", "Notas de la misma altura", "Un silencio entre las notas", "Siempre tres notas"], "answer": 1, "why": "Para sumar duraciones con una ligadura de prolongación, las notas deben tener la misma altura.", "feedback": ["Has elegido «Notas de distinta altura». Para sumar duraciones con una ligadura de prolongación, las notas deben tener la misma altura.", "Has elegido «Notas de la misma altura». Para sumar duraciones con una ligadura de prolongación, las notas deben tener la misma altura.", "Has elegido «Un silencio entre las notas». Para sumar duraciones con una ligadura de prolongación, las notas deben tener la misma altura.", "Has elegido «Siempre tres notas». Para sumar duraciones con una ligadura de prolongación, las notas deben tener la misma altura."], "topic": 5}, {"q": "¿Qué significa un calderón?", "opts": ["Sumar siempre 1", "Duplicar siempre el valor", "Prolongar sin cantidad fija", "Tocar más fuerte"], "answer": 2, "why": "El calderón alarga según la interpretación. No significa sumar 1 ni multiplicar siempre por 2.", "feedback": ["Has elegido «Sumar siempre 1». El calderón alarga según la interpretación. No significa sumar 1 ni multiplicar siempre por 2.", "Has elegido «Duplicar siempre el valor». El calderón alarga según la interpretación. No significa sumar 1 ni multiplicar siempre por 2.", "Has elegido «Prolongar sin cantidad fija». El calderón alarga según la interpretación. No significa sumar 1 ni multiplicar siempre por 2.", "Has elegido «Tocar más fuerte». El calderón alarga según la interpretación. No significa sumar 1 ni multiplicar siempre por 2."], "topic": 5}]}], "models": [[{"q": "¿Qué nos dice el nombre de una nota?", "opts": ["La altura del sonido", "Su duración", "Cuántos compases hay", "La duración del silencio"], "answer": 0, "why": "La nota indica la altura: do, re, mi… La figura indica la duración.", "feedback": ["Has elegido «La altura del sonido». La nota indica la altura: do, re, mi… La figura indica la duración.", "Has elegido «Su duración». La nota indica la altura: do, re, mi… La figura indica la duración.", "Has elegido «Cuántos compases hay». La nota indica la altura: do, re, mi… La figura indica la duración.", "Has elegido «La duración del silencio». La nota indica la altura: do, re, mi… La figura indica la duración."], "topic": 0}, {"q": "Cantamos dos veces SOL, una corta y otra larga. ¿Qué cambia?", "opts": ["La nota", "La figura o duración", "La clave", "El número de líneas"], "answer": 1, "why": "La altura sigue siendo sol; lo que cambia es el tiempo que mantenemos el sonido.", "feedback": ["Has elegido «La nota». La altura sigue siendo sol; lo que cambia es el tiempo que mantenemos el sonido.", "Has elegido «La figura o duración». La altura sigue siendo sol; lo que cambia es el tiempo que mantenemos el sonido.", "Has elegido «La clave». La altura sigue siendo sol; lo que cambia es el tiempo que mantenemos el sonido.", "Has elegido «El número de líneas». La altura sigue siendo sol; lo que cambia es el tiempo que mantenemos el sonido."], "topic": 0}, {"q": "Si la negra vale 1, ¿cuánto vale una redonda?", "opts": ["4", "2", "1", "8"], "answer": 0, "why": "La redonda vale 4 de negra. Cada figura dura la mitad que la anterior.", "feedback": ["Has elegido «4». La redonda vale 4 de negra. Cada figura dura la mitad que la anterior.", "Has elegido «2». La redonda vale 4 de negra. Cada figura dura la mitad que la anterior.", "Has elegido «1». La redonda vale 4 de negra. Cada figura dura la mitad que la anterior.", "Has elegido «8». La redonda vale 4 de negra. Cada figura dura la mitad que la anterior."], "topic": 1}, {"q": "Si la negra vale 1, ¿cuánto vale una blanca?", "opts": ["4", "2", "1", "0,5"], "answer": 1, "why": "La blanca vale 2 de negra. Cada figura dura la mitad que la anterior.", "feedback": ["Has elegido «4». La blanca vale 2 de negra. Cada figura dura la mitad que la anterior.", "Has elegido «2». La blanca vale 2 de negra. Cada figura dura la mitad que la anterior.", "Has elegido «1». La blanca vale 2 de negra. Cada figura dura la mitad que la anterior.", "Has elegido «0,5». La blanca vale 2 de negra. Cada figura dura la mitad que la anterior."], "topic": 1}, {"q": "¿Cuántas corcheas equivalen a una negra?", "opts": ["2", "1", "4", "8"], "answer": 0, "why": "Negra → corchea: un paso. Multiplica por 2: son 2 corcheas.", "feedback": ["Has elegido «2». Negra → corchea: un paso. Multiplica por 2: son 2 corcheas.", "Has elegido «1». Negra → corchea: un paso. Multiplica por 2: son 2 corcheas.", "Has elegido «4». Negra → corchea: un paso. Multiplica por 2: son 2 corcheas.", "Has elegido «8». Negra → corchea: un paso. Multiplica por 2: son 2 corcheas."], "topic": 2}, {"q": "¿Cuántas negras equivalen a una redonda?", "opts": ["2", "4", "8", "16"], "answer": 1, "why": "Redonda → blanca → negra: 2 × 2 = 4 negras.", "feedback": ["Has elegido «2». Redonda → blanca → negra: 2 × 2 = 4 negras.", "Has elegido «4». Redonda → blanca → negra: 2 × 2 = 4 negras.", "Has elegido «8». Redonda → blanca → negra: 2 × 2 = 4 negras.", "Has elegido «16». Redonda → blanca → negra: 2 × 2 = 4 negras."], "topic": 2}, {"q": "¿Cuánto dura un silencio de blanca, si la negra vale 1?", "opts": ["2", "0", "1", "4"], "answer": 0, "why": "Callar no significa durar cero. El silencio de blanca dura 2 negras, igual que la blanca.", "feedback": ["Has elegido «2». Callar no significa durar cero. El silencio de blanca dura 2 negras, igual que la blanca.", "Has elegido «0». Callar no significa durar cero. El silencio de blanca dura 2 negras, igual que la blanca.", "Has elegido «1». Callar no significa durar cero. El silencio de blanca dura 2 negras, igual que la blanca.", "Has elegido «4». Callar no significa durar cero. El silencio de blanca dura 2 negras, igual que la blanca."], "topic": 3}, {"q": "Negra + silencio de negra + blanca: ¿cuánto dura todo, en negras?", "opts": ["3", "4", "2", "5"], "answer": 1, "why": "Cuenta también la pausa: 1 + 1 + 2 = 4.", "feedback": ["Has elegido «3». Cuenta también la pausa: 1 + 1 + 2 = 4.", "Has elegido «4». Cuenta también la pausa: 1 + 1 + 2 = 4.", "Has elegido «2». Cuenta también la pausa: 1 + 1 + 2 = 4.", "Has elegido «5». Cuenta también la pausa: 1 + 1 + 2 = 4."], "topic": 3}, {"q": "En un compás de 3/4 hay una blanca. ¿Cuántas negras faltan?", "opts": ["1", "2", "3", "0"], "answer": 0, "why": "Capacidad 3; blanca 2. Resta: 3 − 2 = 1 negra.", "feedback": ["Has elegido «1». Capacidad 3; blanca 2. Resta: 3 − 2 = 1 negra.", "Has elegido «2». Capacidad 3; blanca 2. Resta: 3 − 2 = 1 negra.", "Has elegido «3». Capacidad 3; blanca 2. Resta: 3 − 2 = 1 negra.", "Has elegido «0». Capacidad 3; blanca 2. Resta: 3 − 2 = 1 negra."], "topic": 4}, {"q": "En 4/4 hay una blanca y una negra. ¿Cuántas negras faltan?", "opts": ["0", "1", "2", "3"], "answer": 1, "why": "Suma lo que hay: 2 + 1 = 3. Después: 4 − 3 = 1.", "feedback": ["Has elegido «0». Suma lo que hay: 2 + 1 = 3. Después: 4 − 3 = 1.", "Has elegido «1». Suma lo que hay: 2 + 1 = 3. Después: 4 − 3 = 1.", "Has elegido «2». Suma lo que hay: 2 + 1 = 3. Después: 4 − 3 = 1.", "Has elegido «3». Suma lo que hay: 2 + 1 = 3. Después: 4 − 3 = 1."], "topic": 4}, {"q": "¿Dónde cae el acento natural al repetir un compás de 2/4?", "opts": ["En el primer pulso de cada compás", "En el segundo pulso de cada compás", "En todos los pulsos por igual"], "answer": 0, "why": "Marca UNO fuerte y dos suave. El acento vuelve cada dos pulsos.", "topic": 4, "feedback": ["Marca UNO fuerte y dos suave. El acento vuelve cada dos pulsos.", "Marca UNO fuerte y dos suave. El acento vuelve cada dos pulsos.", "Marca UNO fuerte y dos suave. El acento vuelve cada dos pulsos."]}, {"q": "En el 2/4 del libro hay un silencio de corchea y dos semicorcheas. ¿Qué figura puedes añadir para completarlo?", "opts": ["Una blanca", "Una negra", "Una corchea"], "answer": 1, "why": "½ + ¼ + ¼ = 1 pulso. Falta 1 para llegar a 2, que es lo que dura una negra.", "topic": 4, "feedback": ["½ + ¼ + ¼ = 1 pulso. Falta 1 para llegar a 2, que es lo que dura una negra.", "½ + ¼ + ¼ = 1 pulso. Falta 1 para llegar a 2, que es lo que dura una negra.", "½ + ¼ + ¼ = 1 pulso. Falta 1 para llegar a 2, que es lo que dura una negra."]}, {"q": "¿Cuánto vale una blanca con puntillo, en negras?", "opts": ["3", "2", "4", "2,5"], "answer": 0, "why": "El puntillo añade la mitad de 2, que es 1: 2 + 1 = 3. No añade siempre medio tiempo.", "feedback": ["Has elegido «3». El puntillo añade la mitad de 2, que es 1: 2 + 1 = 3. No añade siempre medio tiempo.", "Has elegido «2». El puntillo añade la mitad de 2, que es 1: 2 + 1 = 3. No añade siempre medio tiempo.", "Has elegido «4». El puntillo añade la mitad de 2, que es 1: 2 + 1 = 3. No añade siempre medio tiempo.", "Has elegido «2,5». El puntillo añade la mitad de 2, que es 1: 2 + 1 = 3. No añade siempre medio tiempo."], "topic": 5}, {"q": "¿Cuánto vale una negra con puntillo, en negras?", "opts": ["1", "1,5", "2", "0,5"], "answer": 1, "why": "El puntillo añade la mitad de 1: 1 + 0,5 = 1,5.", "feedback": ["Has elegido «1». El puntillo añade la mitad de 1: 1 + 0,5 = 1,5.", "Has elegido «1,5». El puntillo añade la mitad de 1: 1 + 0,5 = 1,5.", "Has elegido «2». El puntillo añade la mitad de 1: 1 + 0,5 = 1,5.", "Has elegido «0,5». El puntillo añade la mitad de 1: 1 + 0,5 = 1,5."], "topic": 5}], [{"q": "¿Cuántas líneas tiene el pentagrama?", "opts": ["4", "6", "5", "7"], "answer": 2, "why": "Penta significa cinco: tiene 5 líneas y 4 espacios. Se cuentan desde abajo.", "feedback": ["Has elegido «4». Penta significa cinco: tiene 5 líneas y 4 espacios. Se cuentan desde abajo.", "Has elegido «6». Penta significa cinco: tiene 5 líneas y 4 espacios. Se cuentan desde abajo.", "Has elegido «5». Penta significa cinco: tiene 5 líneas y 4 espacios. Se cuentan desde abajo.", "Has elegido «7». Penta significa cinco: tiene 5 líneas y 4 espacios. Se cuentan desde abajo."], "topic": 0}, {"q": "En clave de sol, ¿qué nota está en la segunda línea desde abajo?", "opts": ["Mi", "Sol", "La", "Si"], "answer": 1, "why": "La clave de sol fija SOL en la segunda línea. La primera es mi y el segundo espacio es la.", "feedback": ["Has elegido «Mi». La clave de sol fija SOL en la segunda línea. La primera es mi y el segundo espacio es la.", "Has elegido «Sol». La clave de sol fija SOL en la segunda línea. La primera es mi y el segundo espacio es la.", "Has elegido «La». La clave de sol fija SOL en la segunda línea. La primera es mi y el segundo espacio es la.", "Has elegido «Si». La clave de sol fija SOL en la segunda línea. La primera es mi y el segundo espacio es la."], "topic": 0}, {"q": "Si la negra vale 1, ¿cuánto vale una negra?", "opts": ["2", "4", "1", "0,5"], "answer": 2, "why": "La negra vale 1 de negra. Cada figura dura la mitad que la anterior.", "feedback": ["Has elegido «2». La negra vale 1 de negra. Cada figura dura la mitad que la anterior.", "Has elegido «4». La negra vale 1 de negra. Cada figura dura la mitad que la anterior.", "Has elegido «1». La negra vale 1 de negra. Cada figura dura la mitad que la anterior.", "Has elegido «0,5». La negra vale 1 de negra. Cada figura dura la mitad que la anterior."], "topic": 1}, {"q": "Si la negra vale 1, ¿cuánto vale una corchea?", "opts": ["1", "2", "0,25", "0,5"], "answer": 3, "why": "La corchea vale 0,5 de negra. Cada figura dura la mitad que la anterior.", "feedback": ["Has elegido «1». La corchea vale 0,5 de negra. Cada figura dura la mitad que la anterior.", "Has elegido «2». La corchea vale 0,5 de negra. Cada figura dura la mitad que la anterior.", "Has elegido «0,25». La corchea vale 0,5 de negra. Cada figura dura la mitad que la anterior.", "Has elegido «0,5». La corchea vale 0,5 de negra. Cada figura dura la mitad que la anterior."], "topic": 1}, {"q": "¿Cuántas semicorcheas equivalen a una blanca?", "opts": ["2", "4", "8", "16"], "answer": 2, "why": "Blanca → negra → corchea → semicorchea: 2 × 2 × 2 = 8.", "feedback": ["Has elegido «2». Blanca → negra → corchea → semicorchea: 2 × 2 × 2 = 8.", "Has elegido «4». Blanca → negra → corchea → semicorchea: 2 × 2 × 2 = 8.", "Has elegido «8». Blanca → negra → corchea → semicorchea: 2 × 2 × 2 = 8.", "Has elegido «16». Blanca → negra → corchea → semicorchea: 2 × 2 × 2 = 8."], "topic": 2}, {"q": "¿Cuántas fusas equivalen a una corchea?", "opts": ["2", "8", "16", "4"], "answer": 3, "why": "Corchea → semicorchea → fusa: dos pasos, 2 × 2 = 4.", "feedback": ["Has elegido «2». Corchea → semicorchea → fusa: dos pasos, 2 × 2 = 4.", "Has elegido «8». Corchea → semicorchea → fusa: dos pasos, 2 × 2 = 4.", "Has elegido «16». Corchea → semicorchea → fusa: dos pasos, 2 × 2 = 4.", "Has elegido «4». Corchea → semicorchea → fusa: dos pasos, 2 × 2 = 4."], "topic": 2}, {"q": "Mientras hay un silencio, ¿qué hacemos?", "opts": ["Dejamos de contar", "Seguimos contando sin sonar", "Duplicamos la velocidad", "Terminamos el compás"], "answer": 1, "why": "El pulso continúa durante la pausa. El silencio ocupa tiempo dentro del compás.", "feedback": ["Has elegido «Dejamos de contar». El pulso continúa durante la pausa. El silencio ocupa tiempo dentro del compás.", "Has elegido «Seguimos contando sin sonar». El pulso continúa durante la pausa. El silencio ocupa tiempo dentro del compás.", "Has elegido «Duplicamos la velocidad». El pulso continúa durante la pausa. El silencio ocupa tiempo dentro del compás.", "Has elegido «Terminamos el compás». El pulso continúa durante la pausa. El silencio ocupa tiempo dentro del compás."], "topic": 3}, {"q": "¿Dónde se coloca el silencio de redonda?", "opts": ["Cuelga de la cuarta línea", "Encima de la tercera línea", "En cualquier espacio", "Debajo de la primera línea"], "answer": 0, "why": "Redonda: rectángulo por debajo de la cuarta línea. Blanca: rectángulo por encima de la tercera.", "feedback": ["Has elegido «Cuelga de la cuarta línea». Redonda: rectángulo por debajo de la cuarta línea. Blanca: rectángulo por encima de la tercera.", "Has elegido «Encima de la tercera línea». Redonda: rectángulo por debajo de la cuarta línea. Blanca: rectángulo por encima de la tercera.", "Has elegido «En cualquier espacio». Redonda: rectángulo por debajo de la cuarta línea. Blanca: rectángulo por encima de la tercera.", "Has elegido «Debajo de la primera línea». Redonda: rectángulo por debajo de la cuarta línea. Blanca: rectángulo por encima de la tercera."], "topic": 3}, {"q": "En 2/4 hay dos corcheas. ¿Cuántas negras faltan?", "opts": ["0", "2", "1", "0,5"], "answer": 2, "why": "Dos corcheas suman 1 negra. El compás admite 2: falta 2 − 1 = 1.", "feedback": ["Has elegido «0». Dos corcheas suman 1 negra. El compás admite 2: falta 2 − 1 = 1.", "Has elegido «2». Dos corcheas suman 1 negra. El compás admite 2: falta 2 − 1 = 1.", "Has elegido «1». Dos corcheas suman 1 negra. El compás admite 2: falta 2 − 1 = 1.", "Has elegido «0,5». Dos corcheas suman 1 negra. El compás admite 2: falta 2 − 1 = 1."], "topic": 4}, {"q": "En 3/4, ¿qué significa el 4 de abajo?", "opts": ["Caben cuatro notas", "La unidad escrita es la negra", "Hay cuatro compases", "La unidad es la blanca"], "answer": 1, "why": "El denominador 4 representa la negra; el 3 de arriba indica tres unidades de esa figura.", "feedback": ["Has elegido «Caben cuatro notas». El denominador 4 representa la negra; el 3 de arriba indica tres unidades de esa figura.", "Has elegido «La unidad escrita es la negra». El denominador 4 representa la negra; el 3 de arriba indica tres unidades de esa figura.", "Has elegido «Hay cuatro compases». El denominador 4 representa la negra; el 3 de arriba indica tres unidades de esa figura.", "Has elegido «La unidad es la blanca». El denominador 4 representa la negra; el 3 de arriba indica tres unidades de esa figura."], "topic": 4}, {"q": "Si das un golpe fuerte y dos suaves y repites el patrón, ¿qué compás simple estás marcando?", "opts": ["2/4, binario", "4/4, cuaternario", "3/4, ternario"], "answer": 2, "why": "El patrón UNO, dos, tres tiene tres pulsos. En 3/4 cada pulso vale una negra.", "topic": 4, "feedback": ["El patrón UNO, dos, tres tiene tres pulsos. En 3/4 cada pulso vale una negra.", "El patrón UNO, dos, tres tiene tres pulsos. En 3/4 cada pulso vale una negra.", "El patrón UNO, dos, tres tiene tres pulsos. En 3/4 cada pulso vale una negra."]}, {"q": "En el 3/4 del libro hay un silencio de corchea y una corchea. ¿Qué figura puedes añadir?", "opts": ["Una blanca", "Una negra", "Una redonda"], "answer": 0, "why": "½ + ½ = 1 pulso. Faltan 2 para llegar a 3. Una blanca vale 2 pulsos de negra.", "topic": 4, "feedback": ["½ + ½ = 1 pulso. Faltan 2 para llegar a 3. Una blanca vale 2 pulsos de negra.", "½ + ½ = 1 pulso. Faltan 2 para llegar a 3. Una blanca vale 2 pulsos de negra.", "½ + ½ = 1 pulso. Faltan 2 para llegar a 3. Una blanca vale 2 pulsos de negra."]}, {"q": "¿Cuánto vale una redonda con puntillo, en negras?", "opts": ["4", "5", "6", "8"], "answer": 2, "why": "Redonda 4; mitad de 4 = 2. Total: 4 + 2 = 6.", "feedback": ["Has elegido «4». Redonda 4; mitad de 4 = 2. Total: 4 + 2 = 6.", "Has elegido «5». Redonda 4; mitad de 4 = 2. Total: 4 + 2 = 6.", "Has elegido «6». Redonda 4; mitad de 4 = 2. Total: 4 + 2 = 6.", "Has elegido «8». Redonda 4; mitad de 4 = 2. Total: 4 + 2 = 6."], "topic": 5}, {"q": "Dos SOL ligados: blanca + negra. ¿Cuánto dura el sonido, en negras?", "opts": ["1", "2", "4", "3"], "answer": 3, "why": "La ligadura suma 2 + 1 = 3 y mantiene un solo sonido continuo porque ambas notas son sol.", "feedback": ["Has elegido «1». La ligadura suma 2 + 1 = 3 y mantiene un solo sonido continuo porque ambas notas son sol.", "Has elegido «2». La ligadura suma 2 + 1 = 3 y mantiene un solo sonido continuo porque ambas notas son sol.", "Has elegido «4». La ligadura suma 2 + 1 = 3 y mantiene un solo sonido continuo porque ambas notas son sol.", "Has elegido «3». La ligadura suma 2 + 1 = 3 y mantiene un solo sonido continuo porque ambas notas son sol."], "topic": 5}], [{"q": "¿Cuál de estas palabras es una figura musical?", "opts": ["Do", "Sol", "Blanca", "Fa"], "answer": 2, "why": "Blanca es una figura de duración. Do, sol y fa son nombres de notas.", "feedback": ["Has elegido «Do». Blanca es una figura de duración. Do, sol y fa son nombres de notas.", "Has elegido «Sol». Blanca es una figura de duración. Do, sol y fa son nombres de notas.", "Has elegido «Blanca». Blanca es una figura de duración. Do, sol y fa son nombres de notas.", "Has elegido «Fa». Blanca es una figura de duración. Do, sol y fa son nombres de notas."], "topic": 0}, {"q": "En clave de sol, ¿qué nota está en el primer espacio desde abajo?", "opts": ["Mi", "Sol", "Fa", "La"], "answer": 2, "why": "El primer espacio está entre la primera línea (mi) y la segunda (sol): es fa.", "feedback": ["Has elegido «Mi». El primer espacio está entre la primera línea (mi) y la segunda (sol): es fa.", "Has elegido «Sol». El primer espacio está entre la primera línea (mi) y la segunda (sol): es fa.", "Has elegido «Fa». El primer espacio está entre la primera línea (mi) y la segunda (sol): es fa.", "Has elegido «La». El primer espacio está entre la primera línea (mi) y la segunda (sol): es fa."], "topic": 0}, {"q": "Si la negra vale 1, ¿cuánto vale una semicorchea?", "opts": ["0,25", "0,5", "1", "0,125"], "answer": 0, "why": "La semicorchea vale 0,25 de negra. Cada figura dura la mitad que la anterior.", "feedback": ["Has elegido «0,25». La semicorchea vale 0,25 de negra. Cada figura dura la mitad que la anterior.", "Has elegido «0,5». La semicorchea vale 0,25 de negra. Cada figura dura la mitad que la anterior.", "Has elegido «1». La semicorchea vale 0,25 de negra. Cada figura dura la mitad que la anterior.", "Has elegido «0,125». La semicorchea vale 0,25 de negra. Cada figura dura la mitad que la anterior."], "topic": 1}, {"q": "Si la negra vale 1, ¿cuánto vale una fusa?", "opts": ["0,25", "0,125", "0,5", "0,0625"], "answer": 1, "why": "La fusa vale 0,125 de negra. Cada figura dura la mitad que la anterior.", "feedback": ["Has elegido «0,25». La fusa vale 0,125 de negra. Cada figura dura la mitad que la anterior.", "Has elegido «0,125». La fusa vale 0,125 de negra. Cada figura dura la mitad que la anterior.", "Has elegido «0,5». La fusa vale 0,125 de negra. Cada figura dura la mitad que la anterior.", "Has elegido «0,0625». La fusa vale 0,125 de negra. Cada figura dura la mitad que la anterior."], "topic": 1}, {"q": "¿Cuántas semifusas equivalen a una blanca?", "opts": ["32", "8", "16", "64"], "answer": 0, "why": "Blanca → negra → corchea → semicorchea → fusa → semifusa: cinco pasos, 2⁵ = 32.", "feedback": ["Has elegido «32». Blanca → negra → corchea → semicorchea → fusa → semifusa: cinco pasos, 2⁵ = 32.", "Has elegido «8». Blanca → negra → corchea → semicorchea → fusa → semifusa: cinco pasos, 2⁵ = 32.", "Has elegido «16». Blanca → negra → corchea → semicorchea → fusa → semifusa: cinco pasos, 2⁵ = 32.", "Has elegido «64». Blanca → negra → corchea → semicorchea → fusa → semifusa: cinco pasos, 2⁵ = 32."], "topic": 2}, {"q": "¿Cuántas blancas equivalen a ocho corcheas?", "opts": ["1", "2", "4", "8"], "answer": 1, "why": "8 corcheas = 4 negras = 2 blancas. Al ir a figuras más largas, divides entre 2 en cada paso.", "feedback": ["Has elegido «1». 8 corcheas = 4 negras = 2 blancas. Al ir a figuras más largas, divides entre 2 en cada paso.", "Has elegido «2». 8 corcheas = 4 negras = 2 blancas. Al ir a figuras más largas, divides entre 2 en cada paso.", "Has elegido «4». 8 corcheas = 4 negras = 2 blancas. Al ir a figuras más largas, divides entre 2 en cada paso.", "Has elegido «8». 8 corcheas = 4 negras = 2 blancas. Al ir a figuras más largas, divides entre 2 en cada paso."], "topic": 2}, {"q": "¿Dónde se coloca el silencio de blanca?", "opts": ["Cuelga de la cuarta línea", "Se apoya sobre la tercera línea", "En la segunda línea", "Siempre fuera del pentagrama"], "answer": 1, "why": "El silencio de blanca descansa encima de la tercera línea; el de redonda cuelga de la cuarta.", "feedback": ["Has elegido «Cuelga de la cuarta línea». El silencio de blanca descansa encima de la tercera línea; el de redonda cuelga de la cuarta.", "Has elegido «Se apoya sobre la tercera línea». El silencio de blanca descansa encima de la tercera línea; el de redonda cuelga de la cuarta.", "Has elegido «En la segunda línea». El silencio de blanca descansa encima de la tercera línea; el de redonda cuelga de la cuarta.", "Has elegido «Siempre fuera del pentagrama». El silencio de blanca descansa encima de la tercera línea; el de redonda cuelga de la cuarta."], "topic": 3}, {"q": "¿Cuántos silencios de corchea duran lo mismo que un silencio de negra?", "opts": ["1", "2", "4", "8"], "answer": 1, "why": "Cada silencio de corchea vale 1/2: 1/2 + 1/2 = 1.", "feedback": ["Has elegido «1». Cada silencio de corchea vale 1/2: 1/2 + 1/2 = 1.", "Has elegido «2». Cada silencio de corchea vale 1/2: 1/2 + 1/2 = 1.", "Has elegido «4». Cada silencio de corchea vale 1/2: 1/2 + 1/2 = 1.", "Has elegido «8». Cada silencio de corchea vale 1/2: 1/2 + 1/2 = 1."], "topic": 3}, {"q": "¿Cómo se agrupan normalmente las seis corcheas de 6/8?", "opts": ["En seis pulsos de negra", "En dos pulsos de tres corcheas", "En cuatro pulsos iguales", "En tres pulsos de blanca"], "answer": 1, "why": "6/8 es un compás compuesto: 3 corcheas + 3 corcheas, dos pulsos de negra con puntillo.", "feedback": ["Has elegido «En seis pulsos de negra». 6/8 es un compás compuesto: 3 corcheas + 3 corcheas, dos pulsos de negra con puntillo.", "Has elegido «En dos pulsos de tres corcheas». 6/8 es un compás compuesto: 3 corcheas + 3 corcheas, dos pulsos de negra con puntillo.", "Has elegido «En cuatro pulsos iguales». 6/8 es un compás compuesto: 3 corcheas + 3 corcheas, dos pulsos de negra con puntillo.", "Has elegido «En tres pulsos de blanca». 6/8 es un compás compuesto: 3 corcheas + 3 corcheas, dos pulsos de negra con puntillo."], "topic": 4}, {"q": "Blanca + blanca + negra, ¿cabe exactamente en un solo compás de 4/4?", "opts": ["Sí, suma 4", "No, suma 5", "No, suma 3", "Sí, porque son tres figuras"], "answer": 1, "why": "No cuentes los dibujos: suma sus valores. 2 + 2 + 1 = 5; supera la capacidad de 4.", "feedback": ["Has elegido «Sí, suma 4». No cuentes los dibujos: suma sus valores. 2 + 2 + 1 = 5; supera la capacidad de 4.", "Has elegido «No, suma 5». No cuentes los dibujos: suma sus valores. 2 + 2 + 1 = 5; supera la capacidad de 4.", "Has elegido «No, suma 3». No cuentes los dibujos: suma sus valores. 2 + 2 + 1 = 5; supera la capacidad de 4.", "Has elegido «Sí, porque son tres figuras». No cuentes los dibujos: suma sus valores. 2 + 2 + 1 = 5; supera la capacidad de 4."], "topic": 4}, {"q": "¿Qué indica el 7 en el compás de 7/4?", "opts": ["Que el compás dura siete corcheas", "Que el compás dura siete negras", "Que cada negra dura siete pulsos"], "answer": 1, "why": "El 7 indica cuántas unidades caben y el 4 indica que cada unidad es una negra. En 5/4 caben cinco y en 7/4, siete.", "topic": 4, "feedback": ["El 7 indica cuántas unidades caben y el 4 indica que cada unidad es una negra. En 5/4 caben cinco y en 7/4, siete.", "El 7 indica cuántas unidades caben y el 4 indica que cada unidad es una negra. En 5/4 caben cinco y en 7/4, siete.", "El 7 indica cuántas unidades caben y el 4 indica que cada unidad es una negra. En 5/4 caben cinco y en 7/4, siete."]}, {"q": "En el 4/4 del libro hay cuatro semicorcheas, un silencio de corchea, una corchea y una negra. ¿Qué figura cabe en el hueco?", "opts": ["Una corchea", "Una blanca", "Una negra"], "answer": 2, "why": "Las cuatro semicorcheas suman 1, el silencio y la corchea suman 1, y la negra vale 1. Hay 3 pulsos. Falta 1.", "topic": 4, "feedback": ["Las cuatro semicorcheas suman 1, el silencio y la corchea suman 1, y la negra vale 1. Hay 3 pulsos. Falta 1.", "Las cuatro semicorcheas suman 1, el silencio y la corchea suman 1, y la negra vale 1. Hay 3 pulsos. Falta 1.", "Las cuatro semicorcheas suman 1, el silencio y la corchea suman 1, y la negra vale 1. Hay 3 pulsos. Falta 1."]}, {"q": "¿Qué condición exige la ligadura de prolongación?", "opts": ["Notas de distinta altura", "Notas de la misma altura", "Un silencio entre las notas", "Siempre tres notas"], "answer": 1, "why": "Para sumar duraciones con una ligadura de prolongación, las notas deben tener la misma altura.", "feedback": ["Has elegido «Notas de distinta altura». Para sumar duraciones con una ligadura de prolongación, las notas deben tener la misma altura.", "Has elegido «Notas de la misma altura». Para sumar duraciones con una ligadura de prolongación, las notas deben tener la misma altura.", "Has elegido «Un silencio entre las notas». Para sumar duraciones con una ligadura de prolongación, las notas deben tener la misma altura.", "Has elegido «Siempre tres notas». Para sumar duraciones con una ligadura de prolongación, las notas deben tener la misma altura."], "topic": 5}, {"q": "¿Qué significa un calderón?", "opts": ["Sumar siempre 1", "Duplicar siempre el valor", "Prolongar sin cantidad fija", "Tocar más fuerte"], "answer": 2, "why": "El calderón alarga según la interpretación. No significa sumar 1 ni multiplicar siempre por 2.", "feedback": ["Has elegido «Sumar siempre 1». El calderón alarga según la interpretación. No significa sumar 1 ni multiplicar siempre por 2.", "Has elegido «Duplicar siempre el valor». El calderón alarga según la interpretación. No significa sumar 1 ni multiplicar siempre por 2.", "Has elegido «Prolongar sin cantidad fija». El calderón alarga según la interpretación. No significa sumar 1 ni multiplicar siempre por 2.", "Has elegido «Tocar más fuerte». El calderón alarga según la interpretación. No significa sumar 1 ni multiplicar siempre por 2."], "topic": 5}]]};
-const $=id=>document.getElementById(id);let current=[],pos=0,mode='practice',choices=[],graded=[],title='',lastTopic=0;
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Música paso a paso · Aula de Roger</title><style>*{box-sizing:border-box}body{margin:0;font:17px/1.65 system-ui,sans-serif;color:#1f2d47;background:#f4f6fc}header{background:#293c80;color:white;padding:30px 20px}header>div,main{max-width:950px;margin:auto}header a{color:white}h1{margin:10px 0;font-size:2.1rem}h2,h3{line-height:1.3}main{padding:20px 16px 60px}button,.button{cursor:pointer;border:0;border-radius:10px;padding:12px 16px;font:inherit;background:#334a9e;color:white;text-decoration:none;display:inline-block}button.secondary{background:#e9edf9;color:#293c80}button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid #f3b540;outline-offset:3px}.panel{background:white;padding:24px;border:1px solid #dce3f0;border-radius:16px;margin:18px 0}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}.grid button{text-align:left;background:white;color:#24375e;border:1px solid #cbd5ea;min-height:85px}.tip{background:#edf2ff;border-left:4px solid #4b64b7;padding:16px;border-radius:6px}.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(100px,1fr));gap:8px}.figs>div{text-align:center;border:1px solid #dce3f0;border-radius:9px;padding:8px}.figs b,.figs span{display:block}.figs span{font-size:.8rem}.muted{color:#647089}.actions{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0}.answers{display:grid;gap:9px}.answers label{padding:12px;border:1px solid #cbd5ea;border-radius:10px;cursor:pointer}.answers label:has(input:checked){background:#edf2ff;border-color:#334a9e}.answers label.right{background:#e7f7ed;border-color:#23754c}.answers label.wrong{background:#fff0ee;border-color:#b84738}input{margin-right:10px}.feedback{border-radius:10px;padding:16px;margin-top:15px;background:#edf2ff}.bad{background:#fff0ee}.good{background:#e7f7ed}.feedback:empty{display:none}.pill{display:inline-block;background:#edf2ff;color:#293c80;padding:4px 9px;border-radius:7px;font-size:.85rem}progress{width:100%;height:13px}details{margin:18px 0}summary{cursor:pointer;font-weight:700}iframe{width:100%;height:750px;border:1px solid #dce3f0;border-radius:12px}.hidden{display:none!important}.answer-sheet article{border-top:1px solid #dde4ef;padding:14px 0}.score{font-size:1.5rem;font-weight:750}@media(max-width:550px){.panel{padding:18px}h1{font-size:1.8rem}}@media print{button,header a,.actions,iframe,progress{display:none}body{background:white}.panel{break-inside:avoid;border:1px solid #ddd}.hidden{display:block!important}#quiz,#result{display:none!important}}.compas-table{width:100%;border-collapse:collapse}.compas-table th,.compas-table td{text-align:left;padding:8px;border-bottom:1px solid #dce3f0}</style></head><body><header><div><a href="index.html">← Volver al Aula de Roger</a><h1>Música, paso a paso</h1><p>Primero entiende una idea. Después practica solo esa parte.</p></div></header><main><section id="home"><div class="panel"><h2>Vamos por partes</h2><p>Elige un tema para leer la explicación y practicar con preguntas autocorregibles.</p><p>Elige una opción y pulsa <b>Corregir</b>. Verás la respuesta correcta y una explicación en cada pregunta.</p><div id="topics" class="grid"></div></div><div class="panel"><h2>Tres modelos para repasar</h2><p>Cada modelo tiene 14 preguntas, 4 de ellas sobre compases. Al terminar puedes volver a practicar las que fallaste.</p><div class="actions" id="models"></div></div></section><section id="lesson" class="hidden panel"></section><section id="quiz" class="hidden panel"></section><section id="result" class="hidden panel" aria-live="polite"></section></main><script>
+const DATA = {
+  "topics": [
+    {
+      "name": "1. Notas y figuras",
+      "guide": "<p>Piensa en una canción: puedes cantar un <b>do</b> cortito o mantener ese mismo <b>do</b> durante más tiempo.</p><div class=\"tip\"><b>Nota = qué sonido es.</b> Do, re, mi, fa, sol, la, si.<br><b>Figura = cuánto dura.</b> Redonda, blanca, negra…</div><p>El pentagrama tiene <b>5 líneas y 4 espacios</b>. Se cuentan desde abajo. La clave de sol sitúa la nota sol en la segunda línea.</p><p>En clave de sol: líneas de abajo arriba <b>mi–sol–si–re–fa</b>; espacios <b>fa–la–do–mi</b>. No confundas «segunda línea» con «segundo espacio».</p>",
+      "qs": [
+        {
+          "q": "¿Qué nos dice el nombre de una nota?",
+          "opts": [
+            "La altura del sonido",
+            "Su duración",
+            "Cuántos compases hay",
+            "La duración del silencio"
+          ],
+          "answer": 0,
+          "why": "La nota indica la altura: do, re, mi… La figura indica la duración.",
+          "feedback": [
+            "Has elegido «La altura del sonido». La nota indica la altura: do, re, mi… La figura indica la duración.",
+            "Has elegido «Su duración». La nota indica la altura: do, re, mi… La figura indica la duración.",
+            "Has elegido «Cuántos compases hay». La nota indica la altura: do, re, mi… La figura indica la duración.",
+            "Has elegido «La duración del silencio». La nota indica la altura: do, re, mi… La figura indica la duración."
+          ],
+          "topic": 0
+        },
+        {
+          "q": "Cantamos dos veces SOL, una corta y otra larga. ¿Qué cambia?",
+          "opts": [
+            "La nota",
+            "La figura o duración",
+            "La clave",
+            "El número de líneas"
+          ],
+          "answer": 1,
+          "why": "La altura sigue siendo sol; lo que cambia es el tiempo que mantenemos el sonido.",
+          "feedback": [
+            "Has elegido «La nota». La altura sigue siendo sol; lo que cambia es el tiempo que mantenemos el sonido.",
+            "Has elegido «La figura o duración». La altura sigue siendo sol; lo que cambia es el tiempo que mantenemos el sonido.",
+            "Has elegido «La clave». La altura sigue siendo sol; lo que cambia es el tiempo que mantenemos el sonido.",
+            "Has elegido «El número de líneas». La altura sigue siendo sol; lo que cambia es el tiempo que mantenemos el sonido."
+          ],
+          "topic": 0
+        },
+        {
+          "q": "¿Cuántas líneas tiene el pentagrama?",
+          "opts": [
+            "4",
+            "6",
+            "5",
+            "7"
+          ],
+          "answer": 2,
+          "why": "Penta significa cinco: tiene 5 líneas y 4 espacios. Se cuentan desde abajo.",
+          "feedback": [
+            "Has elegido «4». Penta significa cinco: tiene 5 líneas y 4 espacios. Se cuentan desde abajo.",
+            "Has elegido «6». Penta significa cinco: tiene 5 líneas y 4 espacios. Se cuentan desde abajo.",
+            "Has elegido «5». Penta significa cinco: tiene 5 líneas y 4 espacios. Se cuentan desde abajo.",
+            "Has elegido «7». Penta significa cinco: tiene 5 líneas y 4 espacios. Se cuentan desde abajo."
+          ],
+          "topic": 0
+        },
+        {
+          "q": "En clave de sol, ¿qué nota está en la segunda línea desde abajo?",
+          "opts": [
+            "Mi",
+            "Sol",
+            "La",
+            "Si"
+          ],
+          "answer": 1,
+          "why": "La clave de sol fija SOL en la segunda línea. La primera es mi y el segundo espacio es la.",
+          "feedback": [
+            "Has elegido «Mi». La clave de sol fija SOL en la segunda línea. La primera es mi y el segundo espacio es la.",
+            "Has elegido «Sol». La clave de sol fija SOL en la segunda línea. La primera es mi y el segundo espacio es la.",
+            "Has elegido «La». La clave de sol fija SOL en la segunda línea. La primera es mi y el segundo espacio es la.",
+            "Has elegido «Si». La clave de sol fija SOL en la segunda línea. La primera es mi y el segundo espacio es la."
+          ],
+          "topic": 0
+        },
+        {
+          "q": "¿Cuál de estas palabras es una figura musical?",
+          "opts": [
+            "Do",
+            "Sol",
+            "Blanca",
+            "Fa"
+          ],
+          "answer": 2,
+          "why": "Blanca es una figura de duración. Do, sol y fa son nombres de notas.",
+          "feedback": [
+            "Has elegido «Do». Blanca es una figura de duración. Do, sol y fa son nombres de notas.",
+            "Has elegido «Sol». Blanca es una figura de duración. Do, sol y fa son nombres de notas.",
+            "Has elegido «Blanca». Blanca es una figura de duración. Do, sol y fa son nombres de notas.",
+            "Has elegido «Fa». Blanca es una figura de duración. Do, sol y fa son nombres de notas."
+          ],
+          "topic": 0
+        },
+        {
+          "q": "En clave de sol, ¿qué nota está en el primer espacio desde abajo?",
+          "opts": [
+            "Mi",
+            "Sol",
+            "Fa",
+            "La"
+          ],
+          "answer": 2,
+          "why": "El primer espacio está entre la primera línea (mi) y la segunda (sol): es fa.",
+          "feedback": [
+            "Has elegido «Mi». El primer espacio está entre la primera línea (mi) y la segunda (sol): es fa.",
+            "Has elegido «Sol». El primer espacio está entre la primera línea (mi) y la segunda (sol): es fa.",
+            "Has elegido «Fa». El primer espacio está entre la primera línea (mi) y la segunda (sol): es fa.",
+            "Has elegido «La». El primer espacio está entre la primera línea (mi) y la segunda (sol): es fa."
+          ],
+          "topic": 0
+        }
+      ]
+    },
+    {
+      "name": "2. Duración de las figuras",
+      "guide": "<p>La duración indica si un sonido es largo o corto. Las figuras están ordenadas de <b>mayor a menor duración</b>.</p><div class=\"figs\"><div><svg role=\"img\" aria-label=\"Redonda\" viewBox=\"0 0 70 80\" width=\"70\" height=\"80\"><ellipse cx=\"23\" cy=\"53\" rx=\"10\" ry=\"6\" transform=\"rotate(-18 23 53)\" fill=\"white\" stroke=\"#243a70\" stroke-width=\"2\"/></svg><b>Redonda</b></div><div><svg role=\"img\" aria-label=\"Blanca\" viewBox=\"0 0 70 80\" width=\"70\" height=\"80\"><ellipse cx=\"23\" cy=\"53\" rx=\"10\" ry=\"6\" transform=\"rotate(-18 23 53)\" fill=\"white\" stroke=\"#243a70\" stroke-width=\"2\"/><path d=\"M32 52V15\" stroke=\"#243a70\" stroke-width=\"2\"/></svg><b>Blanca</b></div><div><svg role=\"img\" aria-label=\"Negra\" viewBox=\"0 0 70 80\" width=\"70\" height=\"80\"><ellipse cx=\"23\" cy=\"53\" rx=\"10\" ry=\"6\" transform=\"rotate(-18 23 53)\" fill=\"#243a70\" stroke=\"#243a70\" stroke-width=\"2\"/><path d=\"M32 52V15\" stroke=\"#243a70\" stroke-width=\"2\"/></svg><b>Negra</b></div><div><svg role=\"img\" aria-label=\"Corchea\" viewBox=\"0 0 70 80\" width=\"70\" height=\"80\"><ellipse cx=\"23\" cy=\"53\" rx=\"10\" ry=\"6\" transform=\"rotate(-18 23 53)\" fill=\"#243a70\" stroke=\"#243a70\" stroke-width=\"2\"/><path d=\"M32 52V15\" stroke=\"#243a70\" stroke-width=\"2\"/><path d=\"M32 15 Q52 23 38 37\" fill=\"none\" stroke=\"#243a70\" stroke-width=\"3\"/></svg><b>Corchea</b></div><div><svg role=\"img\" aria-label=\"Semicorchea\" viewBox=\"0 0 70 80\" width=\"70\" height=\"80\"><ellipse cx=\"23\" cy=\"53\" rx=\"10\" ry=\"6\" transform=\"rotate(-18 23 53)\" fill=\"#243a70\" stroke=\"#243a70\" stroke-width=\"2\"/><path d=\"M32 52V15\" stroke=\"#243a70\" stroke-width=\"2\"/><path d=\"M32 15 Q52 23 38 37\" fill=\"none\" stroke=\"#243a70\" stroke-width=\"3\"/><path d=\"M32 23 Q52 31 38 45\" fill=\"none\" stroke=\"#243a70\" stroke-width=\"3\"/></svg><b>Semicorchea</b></div><div><svg role=\"img\" aria-label=\"Fusa\" viewBox=\"0 0 70 80\" width=\"70\" height=\"80\"><ellipse cx=\"23\" cy=\"53\" rx=\"10\" ry=\"6\" transform=\"rotate(-18 23 53)\" fill=\"#243a70\" stroke=\"#243a70\" stroke-width=\"2\"/><path d=\"M32 52V15\" stroke=\"#243a70\" stroke-width=\"2\"/><path d=\"M32 15 Q52 23 38 37\" fill=\"none\" stroke=\"#243a70\" stroke-width=\"3\"/><path d=\"M32 23 Q52 31 38 45\" fill=\"none\" stroke=\"#243a70\" stroke-width=\"3\"/><path d=\"M32 31 Q52 39 38 53\" fill=\"none\" stroke=\"#243a70\" stroke-width=\"3\"/></svg><b>Fusa</b></div><div><svg role=\"img\" aria-label=\"Semifusa\" viewBox=\"0 0 70 80\" width=\"70\" height=\"80\"><ellipse cx=\"23\" cy=\"53\" rx=\"10\" ry=\"6\" transform=\"rotate(-18 23 53)\" fill=\"#243a70\" stroke=\"#243a70\" stroke-width=\"2\"/><path d=\"M32 52V15\" stroke=\"#243a70\" stroke-width=\"2\"/><path d=\"M32 15 Q52 23 38 37\" fill=\"none\" stroke=\"#243a70\" stroke-width=\"3\"/><path d=\"M32 23 Q52 31 38 45\" fill=\"none\" stroke=\"#243a70\" stroke-width=\"3\"/><path d=\"M32 31 Q52 39 38 53\" fill=\"none\" stroke=\"#243a70\" stroke-width=\"3\"/><path d=\"M32 39 Q52 47 38 61\" fill=\"none\" stroke=\"#243a70\" stroke-width=\"3\"/></svg><b>Semifusa</b></div></div><p>Por ejemplo, una <b>blanca</b> dura más que una negra y menos que una redonda.</p>",
+      "qs": [
+        {
+          "q": "¿Cuál dura más, la redonda o la blanca?",
+          "opts": [
+            "Blanca",
+            "Redonda"
+          ],
+          "answer": 1,
+          "why": "La redonda dura más que la blanca.",
+          "feedback": [
+            "La redonda dura más que la blanca.",
+            "La redonda dura más que la blanca."
+          ],
+          "topic": 1
+        },
+        {
+          "q": "¿Cuál dura menos, la blanca o la negra?",
+          "opts": [
+            "Negra",
+            "Blanca"
+          ],
+          "answer": 0,
+          "why": "La negra dura menos que la blanca.",
+          "feedback": [
+            "La negra dura menos que la blanca.",
+            "La negra dura menos que la blanca."
+          ],
+          "topic": 1
+        },
+        {
+          "q": "¿Cuál dura más, la negra o la corchea?",
+          "opts": [
+            "Corchea",
+            "Negra"
+          ],
+          "answer": 1,
+          "why": "La negra dura más que la corchea.",
+          "feedback": [
+            "La negra dura más que la corchea.",
+            "La negra dura más que la corchea."
+          ],
+          "topic": 1
+        },
+        {
+          "q": "¿Cuál dura menos, la corchea o la semicorchea?",
+          "opts": [
+            "Semicorchea",
+            "Corchea"
+          ],
+          "answer": 0,
+          "why": "La semicorchea dura menos que la corchea.",
+          "feedback": [
+            "La semicorchea dura menos que la corchea.",
+            "La semicorchea dura menos que la corchea."
+          ],
+          "topic": 1
+        },
+        {
+          "q": "¿Cuál dura más?",
+          "opts": [
+            "Corchea",
+            "Negra",
+            "Blanca"
+          ],
+          "answer": 2,
+          "why": "De estas tres, la blanca dura más.",
+          "feedback": [
+            "De estas tres, la blanca dura más.",
+            "De estas tres, la blanca dura más.",
+            "De estas tres, la blanca dura más."
+          ],
+          "topic": 1
+        },
+        {
+          "q": "¿Cuál dura menos?",
+          "opts": [
+            "Corchea",
+            "Redonda",
+            "Negra"
+          ],
+          "answer": 0,
+          "why": "De estas tres, la corchea dura menos.",
+          "feedback": [
+            "De estas tres, la corchea dura menos.",
+            "De estas tres, la corchea dura menos.",
+            "De estas tres, la corchea dura menos."
+          ],
+          "topic": 1
+        }
+      ]
+    },
+    {
+      "name": "3. Equivalencias sin líos",
+      "guide": "<p>Pregunta típica: «¿Cuántas corcheas caben en una blanca?» No sumes los nombres. Recorre los pasos:</p><div class=\"tip\">1 blanca → 2 negras → 4 corcheas.<br><b>Respuesta: 4 corcheas.</b></div><p>Al ir hacia figuras más pequeñas, multiplica por 2 en cada paso. Al volver hacia las grandes, divide entre 2.</p><p>Otro ejemplo: blanca → negra → corchea → semicorchea. Son tres pasos: <b>2 × 2 × 2 = 8 semicorcheas</b>.</p><p>Comprueba el resultado: 8 × 1/4 = 2, que es el valor de la blanca.</p>",
+      "qs": [
+        {
+          "q": "¿Cuántas corcheas equivalen a una negra?",
+          "opts": [
+            "2",
+            "1",
+            "4",
+            "8"
+          ],
+          "answer": 0,
+          "why": "Negra → corchea: un paso. Multiplica por 2: son 2 corcheas.",
+          "feedback": [
+            "Has elegido «2». Negra → corchea: un paso. Multiplica por 2: son 2 corcheas.",
+            "Has elegido «1». Negra → corchea: un paso. Multiplica por 2: son 2 corcheas.",
+            "Has elegido «4». Negra → corchea: un paso. Multiplica por 2: son 2 corcheas.",
+            "Has elegido «8». Negra → corchea: un paso. Multiplica por 2: son 2 corcheas."
+          ],
+          "topic": 2
+        },
+        {
+          "q": "¿Cuántas negras equivalen a una redonda?",
+          "opts": [
+            "2",
+            "4",
+            "8",
+            "16"
+          ],
+          "answer": 1,
+          "why": "Redonda → blanca → negra: 2 × 2 = 4 negras.",
+          "feedback": [
+            "Has elegido «2». Redonda → blanca → negra: 2 × 2 = 4 negras.",
+            "Has elegido «4». Redonda → blanca → negra: 2 × 2 = 4 negras.",
+            "Has elegido «8». Redonda → blanca → negra: 2 × 2 = 4 negras.",
+            "Has elegido «16». Redonda → blanca → negra: 2 × 2 = 4 negras."
+          ],
+          "topic": 2
+        },
+        {
+          "q": "¿Cuántas semicorcheas equivalen a una blanca?",
+          "opts": [
+            "2",
+            "4",
+            "8",
+            "16"
+          ],
+          "answer": 2,
+          "why": "Blanca → negra → corchea → semicorchea: 2 × 2 × 2 = 8.",
+          "feedback": [
+            "Has elegido «2». Blanca → negra → corchea → semicorchea: 2 × 2 × 2 = 8.",
+            "Has elegido «4». Blanca → negra → corchea → semicorchea: 2 × 2 × 2 = 8.",
+            "Has elegido «8». Blanca → negra → corchea → semicorchea: 2 × 2 × 2 = 8.",
+            "Has elegido «16». Blanca → negra → corchea → semicorchea: 2 × 2 × 2 = 8."
+          ],
+          "topic": 2
+        },
+        {
+          "q": "¿Cuántas fusas equivalen a una corchea?",
+          "opts": [
+            "2",
+            "8",
+            "16",
+            "4"
+          ],
+          "answer": 3,
+          "why": "Corchea → semicorchea → fusa: dos pasos, 2 × 2 = 4.",
+          "feedback": [
+            "Has elegido «2». Corchea → semicorchea → fusa: dos pasos, 2 × 2 = 4.",
+            "Has elegido «8». Corchea → semicorchea → fusa: dos pasos, 2 × 2 = 4.",
+            "Has elegido «16». Corchea → semicorchea → fusa: dos pasos, 2 × 2 = 4.",
+            "Has elegido «4». Corchea → semicorchea → fusa: dos pasos, 2 × 2 = 4."
+          ],
+          "topic": 2
+        },
+        {
+          "q": "¿Cuántas semifusas equivalen a una blanca?",
+          "opts": [
+            "32",
+            "8",
+            "16",
+            "64"
+          ],
+          "answer": 0,
+          "why": "Blanca → negra → corchea → semicorchea → fusa → semifusa: cinco pasos, 2⁵ = 32.",
+          "feedback": [
+            "Has elegido «32». Blanca → negra → corchea → semicorchea → fusa → semifusa: cinco pasos, 2⁵ = 32.",
+            "Has elegido «8». Blanca → negra → corchea → semicorchea → fusa → semifusa: cinco pasos, 2⁵ = 32.",
+            "Has elegido «16». Blanca → negra → corchea → semicorchea → fusa → semifusa: cinco pasos, 2⁵ = 32.",
+            "Has elegido «64». Blanca → negra → corchea → semicorchea → fusa → semifusa: cinco pasos, 2⁵ = 32."
+          ],
+          "topic": 2
+        },
+        {
+          "q": "¿Cuántas blancas equivalen a ocho corcheas?",
+          "opts": [
+            "1",
+            "2",
+            "4",
+            "8"
+          ],
+          "answer": 1,
+          "why": "8 corcheas = 4 negras = 2 blancas. Al ir a figuras más largas, divides entre 2 en cada paso.",
+          "feedback": [
+            "Has elegido «1». 8 corcheas = 4 negras = 2 blancas. Al ir a figuras más largas, divides entre 2 en cada paso.",
+            "Has elegido «2». 8 corcheas = 4 negras = 2 blancas. Al ir a figuras más largas, divides entre 2 en cada paso.",
+            "Has elegido «4». 8 corcheas = 4 negras = 2 blancas. Al ir a figuras más largas, divides entre 2 en cada paso.",
+            "Has elegido «8». 8 corcheas = 4 negras = 2 blancas. Al ir a figuras más largas, divides entre 2 en cada paso."
+          ],
+          "topic": 2
+        }
+      ]
+    },
+    {
+      "name": "4. Silencios",
+      "guide": "<p>Un <b>silencio</b> es una pausa en la que el pulso sigue. Cada silencio dura lo mismo que su figura.</p><div class=\"tip\"><b>Empareja cada figura con su silencio.</b> Una blanca y un silencio de blanca duran lo mismo. Pasa igual con la negra y su silencio, y con la corchea y el suyo.</div><svg role=\"img\" aria-label=\"Silencio de redonda cuelga de cuarta línea; silencio de blanca se apoya en tercera\" viewBox=\"0 0 440 135\" width=\"440\" style=\"max-width:100%\"><path d=\"M20 30H420\" stroke=\"#8390a7\"/><path d=\"M20 45H420\" stroke=\"#8390a7\"/><path d=\"M20 60H420\" stroke=\"#8390a7\"/><path d=\"M20 75H420\" stroke=\"#8390a7\"/><path d=\"M20 90H420\" stroke=\"#8390a7\"/><path d=\"M95 45h27v9H95z M290 51h27v9h-27z\" fill=\"#243a70\"/><text x=\"50\" y=\"120\" font-size=\"14\">Redonda: cuelga</text><text x=\"255\" y=\"120\" font-size=\"14\">Blanca: se apoya</text></svg><p>El silencio de <b>redonda</b> cuelga de la cuarta línea. El de <b>blanca</b> se apoya sobre la tercera. Cuenta las líneas desde abajo.</p>",
+      "qs": [
+        {
+          "q": "¿Qué silencio dura lo mismo que una blanca?",
+          "opts": [
+            "Silencio de corchea",
+            "Silencio de blanca",
+            "Silencio de redonda"
+          ],
+          "answer": 1,
+          "why": "El silencio de blanca dura lo mismo que una blanca. Durante ese tiempo no suena ninguna nota.",
+          "topic": 3
+        },
+        {
+          "q": "¿Qué figura dura lo mismo que un silencio de negra?",
+          "opts": [
+            "Una blanca",
+            "Una negra",
+            "Una corchea"
+          ],
+          "answer": 1,
+          "why": "Cada silencio tiene la misma duración que la figura de su nombre.",
+          "feedback": [
+            "Cada silencio tiene la misma duración que la figura de su nombre.",
+            "Cada silencio tiene la misma duración que la figura de su nombre.",
+            "Cada silencio tiene la misma duración que la figura de su nombre."
+          ],
+          "topic": 3
+        },
+        {
+          "q": "Mientras hay un silencio, ¿qué hacemos?",
+          "opts": [
+            "Dejamos de contar",
+            "Seguimos contando sin sonar",
+            "Duplicamos la velocidad",
+            "Terminamos el compás"
+          ],
+          "answer": 1,
+          "why": "El pulso continúa durante la pausa. El silencio ocupa tiempo dentro del compás.",
+          "feedback": [
+            "Has elegido «Dejamos de contar». El pulso continúa durante la pausa. El silencio ocupa tiempo dentro del compás.",
+            "Has elegido «Seguimos contando sin sonar». El pulso continúa durante la pausa. El silencio ocupa tiempo dentro del compás.",
+            "Has elegido «Duplicamos la velocidad». El pulso continúa durante la pausa. El silencio ocupa tiempo dentro del compás.",
+            "Has elegido «Terminamos el compás». El pulso continúa durante la pausa. El silencio ocupa tiempo dentro del compás."
+          ],
+          "topic": 3
+        },
+        {
+          "q": "¿Dónde se coloca el silencio de redonda?",
+          "opts": [
+            "Cuelga de la cuarta línea",
+            "Encima de la tercera línea",
+            "En cualquier espacio",
+            "Debajo de la primera línea"
+          ],
+          "answer": 0,
+          "why": "Redonda: rectángulo por debajo de la cuarta línea. Blanca: rectángulo por encima de la tercera.",
+          "feedback": [
+            "Has elegido «Cuelga de la cuarta línea». Redonda: rectángulo por debajo de la cuarta línea. Blanca: rectángulo por encima de la tercera.",
+            "Has elegido «Encima de la tercera línea». Redonda: rectángulo por debajo de la cuarta línea. Blanca: rectángulo por encima de la tercera.",
+            "Has elegido «En cualquier espacio». Redonda: rectángulo por debajo de la cuarta línea. Blanca: rectángulo por encima de la tercera.",
+            "Has elegido «Debajo de la primera línea». Redonda: rectángulo por debajo de la cuarta línea. Blanca: rectángulo por encima de la tercera."
+          ],
+          "topic": 3
+        },
+        {
+          "q": "¿Dónde se coloca el silencio de blanca?",
+          "opts": [
+            "Cuelga de la cuarta línea",
+            "Se apoya sobre la tercera línea",
+            "En la segunda línea",
+            "Siempre fuera del pentagrama"
+          ],
+          "answer": 1,
+          "why": "El silencio de blanca descansa encima de la tercera línea; el de redonda cuelga de la cuarta.",
+          "feedback": [
+            "Has elegido «Cuelga de la cuarta línea». El silencio de blanca descansa encima de la tercera línea; el de redonda cuelga de la cuarta.",
+            "Has elegido «Se apoya sobre la tercera línea». El silencio de blanca descansa encima de la tercera línea; el de redonda cuelga de la cuarta.",
+            "Has elegido «En la segunda línea». El silencio de blanca descansa encima de la tercera línea; el de redonda cuelga de la cuarta.",
+            "Has elegido «Siempre fuera del pentagrama». El silencio de blanca descansa encima de la tercera línea; el de redonda cuelga de la cuarta."
+          ],
+          "topic": 3
+        },
+        {
+          "q": "¿Qué dura menos, el silencio de negra o el silencio de corchea?",
+          "opts": [
+            "El silencio de corchea",
+            "Duran igual",
+            "El silencio de negra"
+          ],
+          "answer": 0,
+          "why": "La corchea dura menos que la negra. Sus silencios siguen ese mismo orden.",
+          "topic": 3
+        }
+      ]
+    },
+    {
+      "name": "5. Compases",
+      "guide": "\n<p>El <b>pulso</b> es el latido regular de la música. El <b>compás</b> agrupa pulsos que se repiten. El primer pulso de cada compás lleva el <b>acento natural</b>.</p>\n<p>En 2/4, 3/4 y 4/4, el número de arriba (<b>numerador</b>) indica cuántos pulsos hay. El 4 de abajo (<b>denominador</b>) indica que cada pulso vale una <b>negra</b>.</p>\n<table class=\"compas-table\">\n<thead><tr><th scope=\"col\">Compás</th><th scope=\"col\">Pulsos de negra</th><th scope=\"col\">Cómo marcarlo</th></tr></thead>\n<tbody>\n<tr><th scope=\"row\">2/4</th><td>2</td><td><b>UNO</b> dos</td></tr>\n<tr><th scope=\"row\">3/4</th><td>3</td><td><b>UNO</b> dos tres</td></tr>\n<tr><th scope=\"row\">4/4</th><td>4</td><td><b>UNO</b> dos tres cuatro</td></tr>\n</tbody></table>\n<p>Para practicar, da un golpe fuerte en <b>UNO</b> y suave en los demás pulsos. Repite el grupo.</p>\n<div class=\"tip\"><b>Para completar un compás.</b> En 3/4, una blanca ocupa los dos primeros pulsos. Puedes poner una negra en el tercero.</div>\n",
+      "qs": [
+        {
+          "q": "¿Cuántos pulsos hay en cada compás de 2/4?",
+          "opts": [
+            "Dos",
+            "Cuatro",
+            "Tres"
+          ],
+          "answer": 0,
+          "why": "El 2 de arriba indica que hay dos pulsos por compás.",
+          "feedback": [
+            "El 2 de arriba indica que hay dos pulsos por compás.",
+            "El 2 de arriba indica que hay dos pulsos por compás.",
+            "El 2 de arriba indica que hay dos pulsos por compás."
+          ],
+          "topic": 4
+        },
+        {
+          "q": "¿Dónde cae el acento natural al repetir un compás de 2/4?",
+          "opts": [
+            "En el primer pulso de cada compás",
+            "En el segundo pulso de cada compás",
+            "En todos los pulsos por igual"
+          ],
+          "answer": 0,
+          "why": "Marca UNO fuerte y dos suave. El acento vuelve cada dos pulsos.",
+          "topic": 4,
+          "feedback": [
+            "Marca UNO fuerte y dos suave. El acento vuelve cada dos pulsos.",
+            "Marca UNO fuerte y dos suave. El acento vuelve cada dos pulsos.",
+            "Marca UNO fuerte y dos suave. El acento vuelve cada dos pulsos."
+          ]
+        },
+        {
+          "q": "En 3/4, una blanca ocupa los dos primeros pulsos. ¿Qué figura completa el compás?",
+          "opts": [
+            "Una blanca",
+            "Una negra",
+            "Una redonda"
+          ],
+          "answer": 1,
+          "why": "Queda libre el tercer pulso. Una negra ocupa justo ese pulso.",
+          "topic": 4
+        },
+        {
+          "q": "¿Qué figura vale un pulso en 2/4?",
+          "opts": [
+            "Una blanca",
+            "Una negra",
+            "Una corchea"
+          ],
+          "answer": 1,
+          "why": "El 4 de abajo indica que cada pulso vale una negra.",
+          "feedback": [
+            "El 4 de abajo indica que cada pulso vale una negra.",
+            "El 4 de abajo indica que cada pulso vale una negra.",
+            "El 4 de abajo indica que cada pulso vale una negra."
+          ],
+          "topic": 4
+        },
+        {
+          "q": "En 3/4, ¿qué significa el 4 de abajo?",
+          "opts": [
+            "Caben cuatro notas",
+            "La unidad escrita es la negra",
+            "Hay cuatro compases",
+            "La unidad es la blanca"
+          ],
+          "answer": 1,
+          "why": "El denominador 4 representa la negra; el 3 de arriba indica tres unidades de esa figura.",
+          "feedback": [
+            "Has elegido «Caben cuatro notas». El denominador 4 representa la negra; el 3 de arriba indica tres unidades de esa figura.",
+            "Has elegido «La unidad escrita es la negra». El denominador 4 representa la negra; el 3 de arriba indica tres unidades de esa figura.",
+            "Has elegido «Hay cuatro compases». El denominador 4 representa la negra; el 3 de arriba indica tres unidades de esa figura.",
+            "Has elegido «La unidad es la blanca». El denominador 4 representa la negra; el 3 de arriba indica tres unidades de esa figura."
+          ],
+          "topic": 4
+        },
+        {
+          "q": "¿Cuál corresponde a un golpe fuerte seguido de dos suaves?",
+          "opts": [
+            "4/4",
+            "2/4",
+            "3/4"
+          ],
+          "answer": 2,
+          "why": "UNO, dos, tres forma un grupo de tres pulsos. Cada pulso vale una negra.",
+          "feedback": [
+            "UNO, dos, tres forma un grupo de tres pulsos. Cada pulso vale una negra.",
+            "UNO, dos, tres forma un grupo de tres pulsos. Cada pulso vale una negra.",
+            "UNO, dos, tres forma un grupo de tres pulsos. Cada pulso vale una negra."
+          ],
+          "topic": 4
+        },
+        {
+          "q": "¿Qué indica el 3 de arriba en 3/4?",
+          "opts": [
+            "La figura que vale un pulso",
+            "Tres pulsos por compás",
+            "Cuatro pulsos por compás"
+          ],
+          "answer": 1,
+          "why": "El numerador indica cuántos pulsos hay en el compás.",
+          "feedback": [
+            "El numerador indica cuántos pulsos hay en el compás.",
+            "El numerador indica cuántos pulsos hay en el compás.",
+            "El numerador indica cuántos pulsos hay en el compás."
+          ],
+          "topic": 4
+        },
+        {
+          "q": "En 2/4, ¿qué figura puede ocupar todo el compás por sí sola?",
+          "opts": [
+            "Una corchea",
+            "Una negra",
+            "Una blanca"
+          ],
+          "answer": 2,
+          "why": "En 2/4 hay dos pulsos de negra. Una blanca dura esos dos pulsos.",
+          "topic": 4
+        },
+        {
+          "q": "¿Cuántos pulsos de negra hay en 4/4?",
+          "opts": [
+            "Tres",
+            "Dos",
+            "Cuatro"
+          ],
+          "answer": 2,
+          "why": "El número de arriba es 4, así que hay cuatro pulsos de negra.",
+          "feedback": [
+            "El número de arriba es 4, así que hay cuatro pulsos de negra.",
+            "El número de arriba es 4, así que hay cuatro pulsos de negra.",
+            "El número de arriba es 4, así que hay cuatro pulsos de negra."
+          ],
+          "topic": 4
+        },
+        {
+          "q": "En 4/4, ¿cuál lleva el acento natural?",
+          "opts": [
+            "El cuarto pulso",
+            "El primer pulso",
+            "El tercero"
+          ],
+          "answer": 1,
+          "why": "El acento natural marca el primer pulso de cada compás.",
+          "feedback": [
+            "El acento natural marca el primer pulso de cada compás.",
+            "El acento natural marca el primer pulso de cada compás.",
+            "El acento natural marca el primer pulso de cada compás."
+          ],
+          "topic": 4
+        },
+        {
+          "q": "En 4/4, los tres primeros pulsos ya están ocupados. ¿Qué figura encaja en el último?",
+          "opts": [
+            "Una negra",
+            "Una blanca",
+            "Una corchea"
+          ],
+          "answer": 0,
+          "why": "La negra dura un pulso y ocupa exactamente el cuarto pulso del compás.",
+          "topic": 4
+        },
+        {
+          "q": "¿En qué compás repetirías UNO, dos, tres, cuatro?",
+          "opts": [
+            "2/4",
+            "4/4",
+            "3/4"
+          ],
+          "answer": 1,
+          "why": "Se repiten cuatro pulsos de negra por compás.",
+          "feedback": [
+            "Se repiten cuatro pulsos de negra por compás.",
+            "Se repiten cuatro pulsos de negra por compás.",
+            "Se repiten cuatro pulsos de negra por compás."
+          ],
+          "topic": 4
+        }
+      ]
+    },
+    {
+      "name": "6. Puntillo",
+      "guide": "\n<p>El <b>puntillo</b> es un punto a la derecha de la figura. Añade <b>la mitad del valor de esa figura</b>.</p>\n<ul>\n<li><b>Blanca con puntillo</b> · 2 pulsos más 1 pulso: dura 3 pulsos.</li>\n<li><b>Negra con puntillo</b> · 1 pulso más medio pulso: dura 1 pulso y medio.</li>\n<li><b>Redonda con puntillo</b> · 4 pulsos más 2 pulsos: dura 6 pulsos.</li>\n</ul>\n<p>En estos ejemplos, cada negra vale un pulso.</p>\n",
+      "qs": [
+        {
+          "q": "¿Cuánto vale una blanca con puntillo, en negras?",
+          "opts": [
+            "3",
+            "2",
+            "4",
+            "2,5"
+          ],
+          "answer": 0,
+          "why": "El puntillo añade la mitad de 2, que es 1: 2 + 1 = 3. No añade siempre medio tiempo.",
+          "feedback": [
+            "Has elegido «3». El puntillo añade la mitad de 2, que es 1: 2 + 1 = 3. No añade siempre medio tiempo.",
+            "Has elegido «2». El puntillo añade la mitad de 2, que es 1: 2 + 1 = 3. No añade siempre medio tiempo.",
+            "Has elegido «4». El puntillo añade la mitad de 2, que es 1: 2 + 1 = 3. No añade siempre medio tiempo.",
+            "Has elegido «2,5». El puntillo añade la mitad de 2, que es 1: 2 + 1 = 3. No añade siempre medio tiempo."
+          ],
+          "topic": 5
+        },
+        {
+          "q": "¿Cuánto vale una negra con puntillo, en negras?",
+          "opts": [
+            "1",
+            "1,5",
+            "2",
+            "0,5"
+          ],
+          "answer": 1,
+          "why": "El puntillo añade la mitad de 1: 1 + 0,5 = 1,5.",
+          "feedback": [
+            "Has elegido «1». El puntillo añade la mitad de 1: 1 + 0,5 = 1,5.",
+            "Has elegido «1,5». El puntillo añade la mitad de 1: 1 + 0,5 = 1,5.",
+            "Has elegido «2». El puntillo añade la mitad de 1: 1 + 0,5 = 1,5.",
+            "Has elegido «0,5». El puntillo añade la mitad de 1: 1 + 0,5 = 1,5."
+          ],
+          "topic": 5
+        },
+        {
+          "q": "¿Cuánto vale una redonda con puntillo, en negras?",
+          "opts": [
+            "4",
+            "5",
+            "6",
+            "8"
+          ],
+          "answer": 2,
+          "why": "Redonda 4; mitad de 4 = 2. Total: 4 + 2 = 6.",
+          "feedback": [
+            "Has elegido «4». Redonda 4; mitad de 4 = 2. Total: 4 + 2 = 6.",
+            "Has elegido «5». Redonda 4; mitad de 4 = 2. Total: 4 + 2 = 6.",
+            "Has elegido «6». Redonda 4; mitad de 4 = 2. Total: 4 + 2 = 6.",
+            "Has elegido «8». Redonda 4; mitad de 4 = 2. Total: 4 + 2 = 6."
+          ],
+          "topic": 5
+        },
+        {
+          "q": "¿Dónde se escribe el puntillo?",
+          "opts": [
+            "A la izquierda",
+            "A la derecha",
+            "Encima"
+          ],
+          "answer": 1,
+          "why": "El puntillo se escribe a la derecha de la figura.",
+          "feedback": [
+            "El puntillo se escribe a la derecha de la figura.",
+            "El puntillo se escribe a la derecha de la figura.",
+            "El puntillo se escribe a la derecha de la figura."
+          ],
+          "topic": 5
+        },
+        {
+          "q": "¿Qué añade un puntillo a la duración de una figura?",
+          "opts": [
+            "El mismo valor entero",
+            "La mitad de su valor",
+            "Siempre un pulso"
+          ],
+          "answer": 1,
+          "why": "La mitad se calcula a partir de la figura que tiene el puntillo.",
+          "feedback": [
+            "La mitad se calcula a partir de la figura que tiene el puntillo.",
+            "La mitad se calcula a partir de la figura que tiene el puntillo.",
+            "La mitad se calcula a partir de la figura que tiene el puntillo."
+          ],
+          "topic": 5
+        },
+        {
+          "q": "¿Cuál dura más, una negra o una negra con puntillo?",
+          "opts": [
+            "Una negra",
+            "Duran igual",
+            "Una negra con puntillo"
+          ],
+          "answer": 2,
+          "why": "El puntillo añade medio pulso a la negra.",
+          "feedback": [
+            "El puntillo añade medio pulso a la negra.",
+            "El puntillo añade medio pulso a la negra.",
+            "El puntillo añade medio pulso a la negra."
+          ],
+          "topic": 5
+        }
+      ]
+    }
+  ],
+  "models": [
+    [
+      {
+        "q": "¿Qué nos dice el nombre de una nota?",
+        "opts": [
+          "La altura del sonido",
+          "Su duración",
+          "Cuántos compases hay",
+          "La duración del silencio"
+        ],
+        "answer": 0,
+        "why": "La nota indica la altura: do, re, mi… La figura indica la duración.",
+        "feedback": [
+          "Has elegido «La altura del sonido». La nota indica la altura: do, re, mi… La figura indica la duración.",
+          "Has elegido «Su duración». La nota indica la altura: do, re, mi… La figura indica la duración.",
+          "Has elegido «Cuántos compases hay». La nota indica la altura: do, re, mi… La figura indica la duración.",
+          "Has elegido «La duración del silencio». La nota indica la altura: do, re, mi… La figura indica la duración."
+        ],
+        "topic": 0
+      },
+      {
+        "q": "Cantamos dos veces SOL, una corta y otra larga. ¿Qué cambia?",
+        "opts": [
+          "La nota",
+          "La figura o duración",
+          "La clave",
+          "El número de líneas"
+        ],
+        "answer": 1,
+        "why": "La altura sigue siendo sol; lo que cambia es el tiempo que mantenemos el sonido.",
+        "feedback": [
+          "Has elegido «La nota». La altura sigue siendo sol; lo que cambia es el tiempo que mantenemos el sonido.",
+          "Has elegido «La figura o duración». La altura sigue siendo sol; lo que cambia es el tiempo que mantenemos el sonido.",
+          "Has elegido «La clave». La altura sigue siendo sol; lo que cambia es el tiempo que mantenemos el sonido.",
+          "Has elegido «El número de líneas». La altura sigue siendo sol; lo que cambia es el tiempo que mantenemos el sonido."
+        ],
+        "topic": 0
+      },
+      {
+        "q": "¿Cuál dura más, la redonda o la blanca?",
+        "opts": [
+          "Blanca",
+          "Redonda"
+        ],
+        "answer": 1,
+        "why": "La redonda dura más que la blanca.",
+        "feedback": [
+          "La redonda dura más que la blanca.",
+          "La redonda dura más que la blanca."
+        ],
+        "topic": 1
+      },
+      {
+        "q": "¿Cuál dura menos, la blanca o la negra?",
+        "opts": [
+          "Negra",
+          "Blanca"
+        ],
+        "answer": 0,
+        "why": "La negra dura menos que la blanca.",
+        "feedback": [
+          "La negra dura menos que la blanca.",
+          "La negra dura menos que la blanca."
+        ],
+        "topic": 1
+      },
+      {
+        "q": "¿Cuántas corcheas equivalen a una negra?",
+        "opts": [
+          "2",
+          "1",
+          "4",
+          "8"
+        ],
+        "answer": 0,
+        "why": "Negra → corchea: un paso. Multiplica por 2: son 2 corcheas.",
+        "feedback": [
+          "Has elegido «2». Negra → corchea: un paso. Multiplica por 2: son 2 corcheas.",
+          "Has elegido «1». Negra → corchea: un paso. Multiplica por 2: son 2 corcheas.",
+          "Has elegido «4». Negra → corchea: un paso. Multiplica por 2: son 2 corcheas.",
+          "Has elegido «8». Negra → corchea: un paso. Multiplica por 2: son 2 corcheas."
+        ],
+        "topic": 2
+      },
+      {
+        "q": "¿Cuántas negras equivalen a una redonda?",
+        "opts": [
+          "2",
+          "4",
+          "8",
+          "16"
+        ],
+        "answer": 1,
+        "why": "Redonda → blanca → negra: 2 × 2 = 4 negras.",
+        "feedback": [
+          "Has elegido «2». Redonda → blanca → negra: 2 × 2 = 4 negras.",
+          "Has elegido «4». Redonda → blanca → negra: 2 × 2 = 4 negras.",
+          "Has elegido «8». Redonda → blanca → negra: 2 × 2 = 4 negras.",
+          "Has elegido «16». Redonda → blanca → negra: 2 × 2 = 4 negras."
+        ],
+        "topic": 2
+      },
+      {
+        "q": "¿Qué silencio dura lo mismo que una blanca?",
+        "opts": [
+          "Silencio de corchea",
+          "Silencio de blanca",
+          "Silencio de redonda"
+        ],
+        "answer": 1,
+        "why": "El silencio de blanca dura lo mismo que una blanca. Durante ese tiempo no suena ninguna nota.",
+        "topic": 3
+      },
+      {
+        "q": "¿Qué figura dura lo mismo que un silencio de negra?",
+        "opts": [
+          "Una blanca",
+          "Una negra",
+          "Una corchea"
+        ],
+        "answer": 1,
+        "why": "Cada silencio tiene la misma duración que la figura de su nombre.",
+        "feedback": [
+          "Cada silencio tiene la misma duración que la figura de su nombre.",
+          "Cada silencio tiene la misma duración que la figura de su nombre.",
+          "Cada silencio tiene la misma duración que la figura de su nombre."
+        ],
+        "topic": 3
+      },
+      {
+        "q": "¿Cuántos pulsos hay en cada compás de 2/4?",
+        "opts": [
+          "Dos",
+          "Cuatro",
+          "Tres"
+        ],
+        "answer": 0,
+        "why": "El 2 de arriba indica que hay dos pulsos por compás.",
+        "feedback": [
+          "El 2 de arriba indica que hay dos pulsos por compás.",
+          "El 2 de arriba indica que hay dos pulsos por compás.",
+          "El 2 de arriba indica que hay dos pulsos por compás."
+        ],
+        "topic": 4
+      },
+      {
+        "q": "¿Dónde cae el acento natural al repetir un compás de 2/4?",
+        "opts": [
+          "En el primer pulso de cada compás",
+          "En el segundo pulso de cada compás",
+          "En todos los pulsos por igual"
+        ],
+        "answer": 0,
+        "why": "Marca UNO fuerte y dos suave. El acento vuelve cada dos pulsos.",
+        "topic": 4,
+        "feedback": [
+          "Marca UNO fuerte y dos suave. El acento vuelve cada dos pulsos.",
+          "Marca UNO fuerte y dos suave. El acento vuelve cada dos pulsos.",
+          "Marca UNO fuerte y dos suave. El acento vuelve cada dos pulsos."
+        ]
+      },
+      {
+        "q": "En 3/4, una blanca ocupa los dos primeros pulsos. ¿Qué figura completa el compás?",
+        "opts": [
+          "Una blanca",
+          "Una negra",
+          "Una redonda"
+        ],
+        "answer": 1,
+        "why": "Queda libre el tercer pulso. Una negra ocupa justo ese pulso.",
+        "topic": 4
+      },
+      {
+        "q": "¿Qué figura vale un pulso en 2/4?",
+        "opts": [
+          "Una blanca",
+          "Una negra",
+          "Una corchea"
+        ],
+        "answer": 1,
+        "why": "El 4 de abajo indica que cada pulso vale una negra.",
+        "feedback": [
+          "El 4 de abajo indica que cada pulso vale una negra.",
+          "El 4 de abajo indica que cada pulso vale una negra.",
+          "El 4 de abajo indica que cada pulso vale una negra."
+        ],
+        "topic": 4
+      },
+      {
+        "q": "¿Cuánto vale una blanca con puntillo, en negras?",
+        "opts": [
+          "3",
+          "2",
+          "4",
+          "2,5"
+        ],
+        "answer": 0,
+        "why": "El puntillo añade la mitad de 2, que es 1: 2 + 1 = 3. No añade siempre medio tiempo.",
+        "feedback": [
+          "Has elegido «3». El puntillo añade la mitad de 2, que es 1: 2 + 1 = 3. No añade siempre medio tiempo.",
+          "Has elegido «2». El puntillo añade la mitad de 2, que es 1: 2 + 1 = 3. No añade siempre medio tiempo.",
+          "Has elegido «4». El puntillo añade la mitad de 2, que es 1: 2 + 1 = 3. No añade siempre medio tiempo.",
+          "Has elegido «2,5». El puntillo añade la mitad de 2, que es 1: 2 + 1 = 3. No añade siempre medio tiempo."
+        ],
+        "topic": 5
+      },
+      {
+        "q": "¿Cuánto vale una negra con puntillo, en negras?",
+        "opts": [
+          "1",
+          "1,5",
+          "2",
+          "0,5"
+        ],
+        "answer": 1,
+        "why": "El puntillo añade la mitad de 1: 1 + 0,5 = 1,5.",
+        "feedback": [
+          "Has elegido «1». El puntillo añade la mitad de 1: 1 + 0,5 = 1,5.",
+          "Has elegido «1,5». El puntillo añade la mitad de 1: 1 + 0,5 = 1,5.",
+          "Has elegido «2». El puntillo añade la mitad de 1: 1 + 0,5 = 1,5.",
+          "Has elegido «0,5». El puntillo añade la mitad de 1: 1 + 0,5 = 1,5."
+        ],
+        "topic": 5
+      }
+    ],
+    [
+      {
+        "q": "¿Cuántas líneas tiene el pentagrama?",
+        "opts": [
+          "4",
+          "6",
+          "5",
+          "7"
+        ],
+        "answer": 2,
+        "why": "Penta significa cinco: tiene 5 líneas y 4 espacios. Se cuentan desde abajo.",
+        "feedback": [
+          "Has elegido «4». Penta significa cinco: tiene 5 líneas y 4 espacios. Se cuentan desde abajo.",
+          "Has elegido «6». Penta significa cinco: tiene 5 líneas y 4 espacios. Se cuentan desde abajo.",
+          "Has elegido «5». Penta significa cinco: tiene 5 líneas y 4 espacios. Se cuentan desde abajo.",
+          "Has elegido «7». Penta significa cinco: tiene 5 líneas y 4 espacios. Se cuentan desde abajo."
+        ],
+        "topic": 0
+      },
+      {
+        "q": "En clave de sol, ¿qué nota está en la segunda línea desde abajo?",
+        "opts": [
+          "Mi",
+          "Sol",
+          "La",
+          "Si"
+        ],
+        "answer": 1,
+        "why": "La clave de sol fija SOL en la segunda línea. La primera es mi y el segundo espacio es la.",
+        "feedback": [
+          "Has elegido «Mi». La clave de sol fija SOL en la segunda línea. La primera es mi y el segundo espacio es la.",
+          "Has elegido «Sol». La clave de sol fija SOL en la segunda línea. La primera es mi y el segundo espacio es la.",
+          "Has elegido «La». La clave de sol fija SOL en la segunda línea. La primera es mi y el segundo espacio es la.",
+          "Has elegido «Si». La clave de sol fija SOL en la segunda línea. La primera es mi y el segundo espacio es la."
+        ],
+        "topic": 0
+      },
+      {
+        "q": "¿Cuál dura más, la negra o la corchea?",
+        "opts": [
+          "Corchea",
+          "Negra"
+        ],
+        "answer": 1,
+        "why": "La negra dura más que la corchea.",
+        "feedback": [
+          "La negra dura más que la corchea.",
+          "La negra dura más que la corchea."
+        ],
+        "topic": 1
+      },
+      {
+        "q": "¿Cuál dura menos, la corchea o la semicorchea?",
+        "opts": [
+          "Semicorchea",
+          "Corchea"
+        ],
+        "answer": 0,
+        "why": "La semicorchea dura menos que la corchea.",
+        "feedback": [
+          "La semicorchea dura menos que la corchea.",
+          "La semicorchea dura menos que la corchea."
+        ],
+        "topic": 1
+      },
+      {
+        "q": "¿Cuántas semicorcheas equivalen a una blanca?",
+        "opts": [
+          "2",
+          "4",
+          "8",
+          "16"
+        ],
+        "answer": 2,
+        "why": "Blanca → negra → corchea → semicorchea: 2 × 2 × 2 = 8.",
+        "feedback": [
+          "Has elegido «2». Blanca → negra → corchea → semicorchea: 2 × 2 × 2 = 8.",
+          "Has elegido «4». Blanca → negra → corchea → semicorchea: 2 × 2 × 2 = 8.",
+          "Has elegido «8». Blanca → negra → corchea → semicorchea: 2 × 2 × 2 = 8.",
+          "Has elegido «16». Blanca → negra → corchea → semicorchea: 2 × 2 × 2 = 8."
+        ],
+        "topic": 2
+      },
+      {
+        "q": "¿Cuántas fusas equivalen a una corchea?",
+        "opts": [
+          "2",
+          "8",
+          "16",
+          "4"
+        ],
+        "answer": 3,
+        "why": "Corchea → semicorchea → fusa: dos pasos, 2 × 2 = 4.",
+        "feedback": [
+          "Has elegido «2». Corchea → semicorchea → fusa: dos pasos, 2 × 2 = 4.",
+          "Has elegido «8». Corchea → semicorchea → fusa: dos pasos, 2 × 2 = 4.",
+          "Has elegido «16». Corchea → semicorchea → fusa: dos pasos, 2 × 2 = 4.",
+          "Has elegido «4». Corchea → semicorchea → fusa: dos pasos, 2 × 2 = 4."
+        ],
+        "topic": 2
+      },
+      {
+        "q": "Mientras hay un silencio, ¿qué hacemos?",
+        "opts": [
+          "Dejamos de contar",
+          "Seguimos contando sin sonar",
+          "Duplicamos la velocidad",
+          "Terminamos el compás"
+        ],
+        "answer": 1,
+        "why": "El pulso continúa durante la pausa. El silencio ocupa tiempo dentro del compás.",
+        "feedback": [
+          "Has elegido «Dejamos de contar». El pulso continúa durante la pausa. El silencio ocupa tiempo dentro del compás.",
+          "Has elegido «Seguimos contando sin sonar». El pulso continúa durante la pausa. El silencio ocupa tiempo dentro del compás.",
+          "Has elegido «Duplicamos la velocidad». El pulso continúa durante la pausa. El silencio ocupa tiempo dentro del compás.",
+          "Has elegido «Terminamos el compás». El pulso continúa durante la pausa. El silencio ocupa tiempo dentro del compás."
+        ],
+        "topic": 3
+      },
+      {
+        "q": "¿Dónde se coloca el silencio de redonda?",
+        "opts": [
+          "Cuelga de la cuarta línea",
+          "Encima de la tercera línea",
+          "En cualquier espacio",
+          "Debajo de la primera línea"
+        ],
+        "answer": 0,
+        "why": "Redonda: rectángulo por debajo de la cuarta línea. Blanca: rectángulo por encima de la tercera.",
+        "feedback": [
+          "Has elegido «Cuelga de la cuarta línea». Redonda: rectángulo por debajo de la cuarta línea. Blanca: rectángulo por encima de la tercera.",
+          "Has elegido «Encima de la tercera línea». Redonda: rectángulo por debajo de la cuarta línea. Blanca: rectángulo por encima de la tercera.",
+          "Has elegido «En cualquier espacio». Redonda: rectángulo por debajo de la cuarta línea. Blanca: rectángulo por encima de la tercera.",
+          "Has elegido «Debajo de la primera línea». Redonda: rectángulo por debajo de la cuarta línea. Blanca: rectángulo por encima de la tercera."
+        ],
+        "topic": 3
+      },
+      {
+        "q": "En 3/4, ¿qué significa el 4 de abajo?",
+        "opts": [
+          "Caben cuatro notas",
+          "La unidad escrita es la negra",
+          "Hay cuatro compases",
+          "La unidad es la blanca"
+        ],
+        "answer": 1,
+        "why": "El denominador 4 representa la negra; el 3 de arriba indica tres unidades de esa figura.",
+        "feedback": [
+          "Has elegido «Caben cuatro notas». El denominador 4 representa la negra; el 3 de arriba indica tres unidades de esa figura.",
+          "Has elegido «La unidad escrita es la negra». El denominador 4 representa la negra; el 3 de arriba indica tres unidades de esa figura.",
+          "Has elegido «Hay cuatro compases». El denominador 4 representa la negra; el 3 de arriba indica tres unidades de esa figura.",
+          "Has elegido «La unidad es la blanca». El denominador 4 representa la negra; el 3 de arriba indica tres unidades de esa figura."
+        ],
+        "topic": 4
+      },
+      {
+        "q": "¿Cuál corresponde a un golpe fuerte seguido de dos suaves?",
+        "opts": [
+          "4/4",
+          "2/4",
+          "3/4"
+        ],
+        "answer": 2,
+        "why": "UNO, dos, tres forma un grupo de tres pulsos. Cada pulso vale una negra.",
+        "feedback": [
+          "UNO, dos, tres forma un grupo de tres pulsos. Cada pulso vale una negra.",
+          "UNO, dos, tres forma un grupo de tres pulsos. Cada pulso vale una negra.",
+          "UNO, dos, tres forma un grupo de tres pulsos. Cada pulso vale una negra."
+        ],
+        "topic": 4
+      },
+      {
+        "q": "¿Qué indica el 3 de arriba en 3/4?",
+        "opts": [
+          "La figura que vale un pulso",
+          "Tres pulsos por compás",
+          "Cuatro pulsos por compás"
+        ],
+        "answer": 1,
+        "why": "El numerador indica cuántos pulsos hay en el compás.",
+        "feedback": [
+          "El numerador indica cuántos pulsos hay en el compás.",
+          "El numerador indica cuántos pulsos hay en el compás.",
+          "El numerador indica cuántos pulsos hay en el compás."
+        ],
+        "topic": 4
+      },
+      {
+        "q": "En 2/4, ¿qué figura puede ocupar todo el compás por sí sola?",
+        "opts": [
+          "Una corchea",
+          "Una negra",
+          "Una blanca"
+        ],
+        "answer": 2,
+        "why": "En 2/4 hay dos pulsos de negra. Una blanca dura esos dos pulsos.",
+        "topic": 4
+      },
+      {
+        "q": "¿Cuánto vale una redonda con puntillo, en negras?",
+        "opts": [
+          "4",
+          "5",
+          "6",
+          "8"
+        ],
+        "answer": 2,
+        "why": "Redonda 4; mitad de 4 = 2. Total: 4 + 2 = 6.",
+        "feedback": [
+          "Has elegido «4». Redonda 4; mitad de 4 = 2. Total: 4 + 2 = 6.",
+          "Has elegido «5». Redonda 4; mitad de 4 = 2. Total: 4 + 2 = 6.",
+          "Has elegido «6». Redonda 4; mitad de 4 = 2. Total: 4 + 2 = 6.",
+          "Has elegido «8». Redonda 4; mitad de 4 = 2. Total: 4 + 2 = 6."
+        ],
+        "topic": 5
+      },
+      {
+        "q": "¿Dónde se escribe el puntillo?",
+        "opts": [
+          "A la izquierda",
+          "A la derecha",
+          "Encima"
+        ],
+        "answer": 1,
+        "why": "El puntillo se escribe a la derecha de la figura.",
+        "feedback": [
+          "El puntillo se escribe a la derecha de la figura.",
+          "El puntillo se escribe a la derecha de la figura.",
+          "El puntillo se escribe a la derecha de la figura."
+        ],
+        "topic": 5
+      }
+    ],
+    [
+      {
+        "q": "¿Cuál de estas palabras es una figura musical?",
+        "opts": [
+          "Do",
+          "Sol",
+          "Blanca",
+          "Fa"
+        ],
+        "answer": 2,
+        "why": "Blanca es una figura de duración. Do, sol y fa son nombres de notas.",
+        "feedback": [
+          "Has elegido «Do». Blanca es una figura de duración. Do, sol y fa son nombres de notas.",
+          "Has elegido «Sol». Blanca es una figura de duración. Do, sol y fa son nombres de notas.",
+          "Has elegido «Blanca». Blanca es una figura de duración. Do, sol y fa son nombres de notas.",
+          "Has elegido «Fa». Blanca es una figura de duración. Do, sol y fa son nombres de notas."
+        ],
+        "topic": 0
+      },
+      {
+        "q": "En clave de sol, ¿qué nota está en el primer espacio desde abajo?",
+        "opts": [
+          "Mi",
+          "Sol",
+          "Fa",
+          "La"
+        ],
+        "answer": 2,
+        "why": "El primer espacio está entre la primera línea (mi) y la segunda (sol): es fa.",
+        "feedback": [
+          "Has elegido «Mi». El primer espacio está entre la primera línea (mi) y la segunda (sol): es fa.",
+          "Has elegido «Sol». El primer espacio está entre la primera línea (mi) y la segunda (sol): es fa.",
+          "Has elegido «Fa». El primer espacio está entre la primera línea (mi) y la segunda (sol): es fa.",
+          "Has elegido «La». El primer espacio está entre la primera línea (mi) y la segunda (sol): es fa."
+        ],
+        "topic": 0
+      },
+      {
+        "q": "¿Cuál dura más?",
+        "opts": [
+          "Corchea",
+          "Negra",
+          "Blanca"
+        ],
+        "answer": 2,
+        "why": "De estas tres, la blanca dura más.",
+        "feedback": [
+          "De estas tres, la blanca dura más.",
+          "De estas tres, la blanca dura más.",
+          "De estas tres, la blanca dura más."
+        ],
+        "topic": 1
+      },
+      {
+        "q": "¿Cuál dura menos?",
+        "opts": [
+          "Corchea",
+          "Redonda",
+          "Negra"
+        ],
+        "answer": 0,
+        "why": "De estas tres, la corchea dura menos.",
+        "feedback": [
+          "De estas tres, la corchea dura menos.",
+          "De estas tres, la corchea dura menos.",
+          "De estas tres, la corchea dura menos."
+        ],
+        "topic": 1
+      },
+      {
+        "q": "¿Cuántas semifusas equivalen a una blanca?",
+        "opts": [
+          "32",
+          "8",
+          "16",
+          "64"
+        ],
+        "answer": 0,
+        "why": "Blanca → negra → corchea → semicorchea → fusa → semifusa: cinco pasos, 2⁵ = 32.",
+        "feedback": [
+          "Has elegido «32». Blanca → negra → corchea → semicorchea → fusa → semifusa: cinco pasos, 2⁵ = 32.",
+          "Has elegido «8». Blanca → negra → corchea → semicorchea → fusa → semifusa: cinco pasos, 2⁵ = 32.",
+          "Has elegido «16». Blanca → negra → corchea → semicorchea → fusa → semifusa: cinco pasos, 2⁵ = 32.",
+          "Has elegido «64». Blanca → negra → corchea → semicorchea → fusa → semifusa: cinco pasos, 2⁵ = 32."
+        ],
+        "topic": 2
+      },
+      {
+        "q": "¿Cuántas blancas equivalen a ocho corcheas?",
+        "opts": [
+          "1",
+          "2",
+          "4",
+          "8"
+        ],
+        "answer": 1,
+        "why": "8 corcheas = 4 negras = 2 blancas. Al ir a figuras más largas, divides entre 2 en cada paso.",
+        "feedback": [
+          "Has elegido «1». 8 corcheas = 4 negras = 2 blancas. Al ir a figuras más largas, divides entre 2 en cada paso.",
+          "Has elegido «2». 8 corcheas = 4 negras = 2 blancas. Al ir a figuras más largas, divides entre 2 en cada paso.",
+          "Has elegido «4». 8 corcheas = 4 negras = 2 blancas. Al ir a figuras más largas, divides entre 2 en cada paso.",
+          "Has elegido «8». 8 corcheas = 4 negras = 2 blancas. Al ir a figuras más largas, divides entre 2 en cada paso."
+        ],
+        "topic": 2
+      },
+      {
+        "q": "¿Dónde se coloca el silencio de blanca?",
+        "opts": [
+          "Cuelga de la cuarta línea",
+          "Se apoya sobre la tercera línea",
+          "En la segunda línea",
+          "Siempre fuera del pentagrama"
+        ],
+        "answer": 1,
+        "why": "El silencio de blanca descansa encima de la tercera línea; el de redonda cuelga de la cuarta.",
+        "feedback": [
+          "Has elegido «Cuelga de la cuarta línea». El silencio de blanca descansa encima de la tercera línea; el de redonda cuelga de la cuarta.",
+          "Has elegido «Se apoya sobre la tercera línea». El silencio de blanca descansa encima de la tercera línea; el de redonda cuelga de la cuarta.",
+          "Has elegido «En la segunda línea». El silencio de blanca descansa encima de la tercera línea; el de redonda cuelga de la cuarta.",
+          "Has elegido «Siempre fuera del pentagrama». El silencio de blanca descansa encima de la tercera línea; el de redonda cuelga de la cuarta."
+        ],
+        "topic": 3
+      },
+      {
+        "q": "¿Qué dura menos, el silencio de negra o el silencio de corchea?",
+        "opts": [
+          "El silencio de corchea",
+          "Duran igual",
+          "El silencio de negra"
+        ],
+        "answer": 0,
+        "why": "La corchea dura menos que la negra. Sus silencios siguen ese mismo orden.",
+        "topic": 3
+      },
+      {
+        "q": "¿Cuántos pulsos de negra hay en 4/4?",
+        "opts": [
+          "Tres",
+          "Dos",
+          "Cuatro"
+        ],
+        "answer": 2,
+        "why": "El número de arriba es 4, así que hay cuatro pulsos de negra.",
+        "feedback": [
+          "El número de arriba es 4, así que hay cuatro pulsos de negra.",
+          "El número de arriba es 4, así que hay cuatro pulsos de negra.",
+          "El número de arriba es 4, así que hay cuatro pulsos de negra."
+        ],
+        "topic": 4
+      },
+      {
+        "q": "En 4/4, ¿cuál lleva el acento natural?",
+        "opts": [
+          "El cuarto pulso",
+          "El primer pulso",
+          "El tercero"
+        ],
+        "answer": 1,
+        "why": "El acento natural marca el primer pulso de cada compás.",
+        "feedback": [
+          "El acento natural marca el primer pulso de cada compás.",
+          "El acento natural marca el primer pulso de cada compás.",
+          "El acento natural marca el primer pulso de cada compás."
+        ],
+        "topic": 4
+      },
+      {
+        "q": "En 4/4, los tres primeros pulsos ya están ocupados. ¿Qué figura encaja en el último?",
+        "opts": [
+          "Una negra",
+          "Una blanca",
+          "Una corchea"
+        ],
+        "answer": 0,
+        "why": "La negra dura un pulso y ocupa exactamente el cuarto pulso del compás.",
+        "topic": 4
+      },
+      {
+        "q": "¿En qué compás repetirías UNO, dos, tres, cuatro?",
+        "opts": [
+          "2/4",
+          "4/4",
+          "3/4"
+        ],
+        "answer": 1,
+        "why": "Se repiten cuatro pulsos de negra por compás.",
+        "feedback": [
+          "Se repiten cuatro pulsos de negra por compás.",
+          "Se repiten cuatro pulsos de negra por compás.",
+          "Se repiten cuatro pulsos de negra por compás."
+        ],
+        "topic": 4
+      },
+      {
+        "q": "¿Qué añade un puntillo a la duración de una figura?",
+        "opts": [
+          "El mismo valor entero",
+          "La mitad de su valor",
+          "Siempre un pulso"
+        ],
+        "answer": 1,
+        "why": "La mitad se calcula a partir de la figura que tiene el puntillo.",
+        "feedback": [
+          "La mitad se calcula a partir de la figura que tiene el puntillo.",
+          "La mitad se calcula a partir de la figura que tiene el puntillo.",
+          "La mitad se calcula a partir de la figura que tiene el puntillo."
+        ],
+        "topic": 5
+      },
+      {
+        "q": "¿Cuál dura más, una negra o una negra con puntillo?",
+        "opts": [
+          "Una negra",
+          "Duran igual",
+          "Una negra con puntillo"
+        ],
+        "answer": 2,
+        "why": "El puntillo añade medio pulso a la negra.",
+        "feedback": [
+          "El puntillo añade medio pulso a la negra.",
+          "El puntillo añade medio pulso a la negra.",
+          "El puntillo añade medio pulso a la negra."
+        ],
+        "topic": 5
+      }
+    ]
+  ]
+};
+const $=id=>document.getElementById(id);let current=[],pos=0,choices=[],graded=[],title='';
 function screen(id){['home','lesson','quiz','result'].forEach(x=>$(x).classList.toggle('hidden',x!==id));window.scrollTo({top:0,behavior:'smooth'})}
 function esc(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
 $('topics').innerHTML=DATA.topics.map((t,i)=>`<button onclick="lesson(${i})">${esc(t.name)}<br><small>Explicación + ${t.qs.length} preguntas</small></button>`).join('');
 $('models').innerHTML=DATA.models.map((m,i)=>`<button onclick="startModel(${i})">Modelo ${i+1}</button>`).join('');
-function lesson(i){lastTopic=i;let t=DATA.topics[i];$('lesson').innerHTML=`<span class="pill">Bloque ${i+1} de 6</span><h2>${esc(t.name)}</h2>${t.guide}<div class="actions"><button onclick="startTopic(${i})">Practicar esta parte</button><button class="secondary" onclick="screen('home')">Todos los bloques</button></div>`;screen('lesson')}
-function start(qs,label,m){current=[...qs];title=label;mode=m;pos=0;choices=current.map(()=>null);graded=current.map(()=>false);screen('quiz');draw()}
-function startTopic(i){lastTopic=i;start(DATA.topics[i].qs,DATA.topics[i].name,'practice')}
-function startModel(i){start(DATA.models[i],`Modelo ${i+1}`,'exam')}
-function draw(){let q=current[pos];$('quiz').innerHTML=`<span class="pill">${esc(title)}</span><p>Pregunta ${pos+1} de ${current.length}</p><progress value="${pos+1}" max="${current.length}"></progress><h2>${esc(q.q)}</h2><div class="answers">${q.opts.map((a,i)=>`<label id="opt${i}"><input type="radio" name="answer" value="${i}" ${choices[pos]===i?'checked':''} onchange="choose(${i})">${esc(a)}</label>`).join('')}</div><div id="feedback" class="feedback" role="status" aria-live="polite"></div><div class="actions">${mode==='practice'?'<button onclick="check()">Corregir esta pregunta</button>':''}<button onclick="next()">${pos===current.length-1?'Terminar y corregir':'Siguiente →'}</button>${pos>0?'<button class="secondary" onclick="previous()">← Anterior</button>':''}<button class="secondary" onclick="screen('home')">Volver al menú</button></div><details><summary>Ver respuesta y explicación</summary><p><b>${esc(q.opts[q.answer])}</b></p><p>${esc(q.why)}</p><p>Repasa: ${esc(DATA.topics[q.topic].name)}</p></details>`;if(graded[pos])feedback()}
-function choose(i){choices[pos]=i;graded[pos]=false;$('feedback').textContent='';document.querySelectorAll('.answers label').forEach(l=>l.classList.remove('right','wrong'))}
+function lesson(i){let t=DATA.topics[i];$('lesson').innerHTML=`<span class="pill">Bloque ${i+1} de 6</span><h2>${esc(t.name)}</h2>${t.guide}<div class="actions"><button onclick="startTopic(${i})">Practicar esta parte</button><button class="secondary" onclick="screen('home')">Todos los bloques</button></div>`;screen('lesson')}
+function start(qs,label){current=[...qs];title=label;pos=0;choices=current.map(()=>null);graded=current.map(()=>false);screen('quiz');draw()}
+function startTopic(i){start(DATA.topics[i].qs,DATA.topics[i].name)}
+function startModel(i){start(DATA.models[i],`Modelo ${i+1}`)}
+function draw(){let q=current[pos];$('quiz').innerHTML=`<span class="pill">${esc(title)}</span><p>Pregunta ${pos+1} de ${current.length}</p><progress value="${pos+1}" max="${current.length}"></progress><h2>${esc(q.q)}</h2><div class="answers">${q.opts.map((a,i)=>`<label id="opt${i}"><input type="radio" name="answer" value="${i}" ${choices[pos]===i?'checked':''} onchange="choose(${i})">${esc(a)}</label>`).join('')}</div><div id="feedback" class="feedback" role="status" aria-live="polite"></div><div class="actions"><button onclick="check()">Corregir</button><button onclick="next()">${pos===current.length-1?'Ver resultado':'Siguiente →'}</button>${pos>0?'<button class="secondary" onclick="previous()">← Anterior</button>':''}<button class="secondary" onclick="screen('home')">Volver al menú</button></div><details><summary>Ver respuesta y explicación</summary><p><b>${esc(q.opts[q.answer])}</b></p><p>${esc(q.why)}</p><p>Repasa: ${esc(DATA.topics[q.topic].name)}</p></details>`;if(graded[pos])feedback()}
+function choose(i){choices[pos]=i;graded[pos]=false;$('feedback').className='feedback';$('feedback').textContent='';document.querySelectorAll('.answers label').forEach(l=>l.classList.remove('right','wrong'))}
 function check(){if(choices[pos]===null){$('feedback').textContent='Elige una respuesta antes de corregir.';return}graded[pos]=true;feedback()}
-function feedback(){let q=current[pos],v=choices[pos],ok=v===q.answer;let f=$('feedback');f.className='feedback '+(ok?'good':'bad');f.innerHTML=`<b>${ok?'✓ Has acertado.':'✗ Revisa este paso.'}</b><p>${ok?esc(q.why):esc(q.feedback[v])}</p>${ok?'':`<p><b>Respuesta correcta: ${esc(q.opts[q.answer])}.</b></p>`}<p>Lo encontrarás en: <b>${esc(DATA.topics[q.topic].name)}</b>.</p>`;$('opt'+q.answer).classList.add('right');if(!ok)$('opt'+v).classList.add('wrong')}
-function next(){if(mode==='practice'&&!graded[pos]){check();return}if(pos<current.length-1){pos++;draw()}else finish()}
+function feedback(){let q=current[pos],v=choices[pos],ok=v===q.answer;let f=$('feedback');f.className='feedback '+(ok?'good':'bad');f.innerHTML=`<b>${ok?'✓ Has acertado.':'✗ Revisa este paso.'}</b><p>${ok?esc(q.why):esc(q.feedback?.[v] ?? q.why)}</p><p><b>Respuesta correcta: ${esc(q.opts[q.answer])}.</b></p><p>Lo encontrarás en: <b>${esc(DATA.topics[q.topic].name)}</b>.</p>`;$('opt'+q.answer).classList.add('right');if(!ok)$('opt'+v).classList.add('wrong')}
+function next(){if(!graded[pos]){check();return}if(pos<current.length-1){pos++;draw()}else finish()}
 function previous(){pos--;draw()}
-function finish(){let correct=current.filter((q,i)=>choices[i]===q.answer).length;let missing=choices.filter(x=>x===null).length;let wrong=current.filter((q,i)=>choices[i]!==q.answer);window.retryQuestions=wrong;let mistakes=[...new Set(wrong.map(q=>q.topic))];$('result').innerHTML=`<h2>${esc(title)} · Resultado</h2><p class="score">${correct}/${current.length} · Nota ${(correct/current.length*10).toFixed(1).replace('.',',')}/10</p><p>${missing?'Sin responder: '+missing+'. Se cuentan como no acertadas.':'Has respondido todas las preguntas.'}</p><h3>${wrong.length?'Qué conviene repasar':'¡Bloque dominado!'}</h3><div class="actions">${mistakes.map(i=>`<button class="secondary" onclick="lesson(${i})">${esc(DATA.topics[i].name)}</button>`).join('')}</div><div class="actions">${wrong.length?'<button onclick="retry()">Repetir solo los fallos</button>':''}<button class="secondary" onclick="screen('home')">Elegir otro bloque</button></div><h3>Soluciones y explicación de cada respuesta</h3><div class="answer-sheet">${current.map((q,i)=>`<article><b>${i+1}. ${esc(q.q)}</b><p>Tu respuesta: ${choices[i]===null?'Sin responder':esc(q.opts[choices[i]])} ${choices[i]===q.answer?'✓':'✗'}</p><p><b>Respuesta correcta: ${esc(q.opts[q.answer])}.</b></p><p>${choices[i]!==null&&choices[i]!==q.answer?esc(q.feedback[choices[i]]):esc(q.why)}</p><p class="muted">Repasa: ${esc(DATA.topics[q.topic].name)}</p></article>`).join('')}</div>`;screen('result')}
-function retry(){start(window.retryQuestions,'Repaso de mis fallos','practice')}
+function finish(){let correct=current.filter((q,i)=>choices[i]===q.answer).length;let missing=choices.filter(x=>x===null).length;let wrong=current.filter((q,i)=>choices[i]!==q.answer);window.retryQuestions=wrong;let mistakes=[...new Set(wrong.map(q=>q.topic))];$('result').innerHTML=`<h2>${esc(title)} · Resultado</h2><p class="score">${correct}/${current.length} · Nota ${(correct/current.length*10).toFixed(1).replace('.',',')}/10</p><p>${missing?'Sin responder: '+missing+'. Se cuentan como no acertadas.':'Has respondido todas las preguntas.'}</p><h3>${wrong.length?'Qué conviene repasar':'¡Bloque dominado!'}</h3><div class="actions">${mistakes.map(i=>`<button class="secondary" onclick="lesson(${i})">${esc(DATA.topics[i].name)}</button>`).join('')}</div><div class="actions">${wrong.length?'<button onclick="retry()">Repetir solo los fallos</button>':''}<button class="secondary" onclick="screen('home')">Elegir otro bloque</button></div><h3>Soluciones y explicación de cada respuesta</h3><div class="answer-sheet">${current.map((q,i)=>`<article><b>${i+1}. ${esc(q.q)}</b><p>Tu respuesta: ${choices[i]===null?'Sin responder':esc(q.opts[choices[i]])} ${choices[i]===q.answer?'✓':'✗'}</p><p><b>Respuesta correcta: ${esc(q.opts[q.answer])}.</b></p><p>${choices[i]!==null&&choices[i]!==q.answer?esc(q.feedback?.[choices[i]] ?? q.why):esc(q.why)}</p><p class="muted">Repasa: ${esc(DATA.topics[q.topic].name)}</p></article>`).join('')}</div>`;screen('result')}
+function retry(){start(window.retryQuestions,'Repaso de mis fallos')}
 </script></body></html>
